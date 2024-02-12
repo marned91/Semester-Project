@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Cambay:wght@400;700&family=Lato:wght@900&family=Manrope:wght@400;500;700&family=Maven+Pro:wght@700&display=swap');
+
+h1 {
+    font-family: 'Maven Pro';
+}
+
+h2, h3, p, li, a {
+    font-family: 'Manrope';
+}
+
+.logo-header {
+    max-width: 180px;
+}
+
+.logo-footer {
+    max-width: 90px;
+}
+
+.hamburger-icon {
+    font-size: 35px;
+}
+
+h1, nav li, .nav-desktop, .nav-mobile, nav a:visited, nav a:link, .hamburger-icon {
+    color: #0B2344;
+}
+
+.nav-mobile ul, .nav-mobile nav, .nav-mobile li, .nav-mobile{
+    background-color: #309C6F;
+}
+
+.nav-mobile ul{
+    list-style: none;
+    text-align: center;
+    line-height: 60px;
+    padding-left: 0px;
+}
+
+  .nav-mobile {
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    box-shadow: 0px 4px rgb(0, 0, 0, .30);
+    padding-bottom: 30px;
+    align-items: center;
+}
+
+.hamburger-menu:has(#menu-checkbox:checked) ~ .nav-mobile{
+    display: block;
+    }
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0%;
+}
+
+header {
+    display: flex;
+    height: 80px;
+    color: white;
+    align-items: center;
+}
+
+nav a, nav li, footer li, footer a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#menu-checkbox {
+    display: none;
+}
+
+footer {
+    display: flex;
+    background-color: #0B2344;
+    padding: 10px 0px;
+}
+
+footer a:visited, footer a:link, footer p, #social-icons {
+    color: white;
+}
+
+footer li {
+    display: inline-block;
+}
+
+.footerlogo, .footer-links, .footer-social{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.footer-social {
+    display: block;
+    text-align: center;
+    font-size: 13px;
+    margin: auto;
+}
+
+.footer-links {
+    align-items: center;
+}
+
+.footer-links a {
+    padding-inline: 20px;
+}
+
+
+
+
+
+/*mobile and small tablets*/
+@media screen and (min-width: 300px) and (max-width: 600px){
+    .nav-desktop, .nav-mobile {
+        display: none;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo {
+        margin: auto;
+        padding-left: 10px;
+    }
+
+    .hamburger-icon {
+        margin-left: 40px;
+    }
+
+    footer {
+        flex-wrap: wrap;
+    }
+
+    .footerlogo, .footer-links {
+        display: flex;
+        justify-content: flex-start;
+        flex: 1;
+    }
+
+    .footerlogo {
+        margin-left: 40px;
+    }
+
+    .footer-social {
+        flex: 100%;
+    }
+
+    .footer-links {
+        display: block;
+        text-align: left;
+        margin: auto;
+        max-width: 150px;
+    }
+
+    .footer-links a {
+        padding-inline: 0px;
+        font-size: 14px;
+    }
+
+    .footer-social p {
+        font-size: 12px;
+    }
+
+    .footer-social {
+        text-align: right;
+    }
+
+    .footer-links {
+        margin-right: 15px;
+        line-height: 25px;
+    }
+
+    .footer-social {
+        margin-right: 20px;
+    }
+
+    #social-icons {
+        font-size: 15px;
+        padding-right: 5px;
+    }
+}
+
+/*smaller and lagrer tablets*/
+@media screen and (min-width: 601px) and (max-width: 900px){
+    .nav-desktop, .nav-mobile{
+        display: none;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo {
+        margin: auto;
+        padding-left: 10px;
+    }
+
+    .hamburger-icon {
+        margin-left: 100px;
+    }
+}
+
+/*laptop and desktop*/
+@media screen and (min-width: 901px) and (max-width: 20000px){
+    .nav-mobile, .hamburger-menu:has(#menu-checkbox:checked) ~ .nav-mobile, .hamburger-icon {
+        display: none;
+    }
+
+    .logo, .nav-desktop {
+        justify-content: flex-start;
+        flex: 1;
+    }
+
+    .logo {
+        margin-left: 10px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        padding-left: 70px;
+    }
+
+    .nav-desktop {
+        margin-right: 20px;
+        flex-grow: 3;
+        margin: 0;
+    }
+
+    .nav-desktop li {
+        display: inline-block;
+        padding-inline: 20px;
+    }
+
+    .nav-desktop ul {
+        white-space: nowrap;
+        padding-left: 0px;
+    }
+
+    #social-icons,.footer-social p {
+        font-size: 14px;
+    }
+
+
+
+}
