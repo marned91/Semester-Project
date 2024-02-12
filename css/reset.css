@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Cambay:wght@400;700&family=Lato:wght@900&family=Manrope:wght@400;500;700&family=Maven+Pro:wght@700&display=swap');
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0%;
+}
+
 h1 {
     font-family: 'Maven Pro';
 }
@@ -28,37 +34,39 @@ h1, nav li, .nav-desktop, .nav-mobile, nav a:visited, nav a:link, .hamburger-ico
     background-color: #309C6F;
 }
 
-.nav-mobile ul{
-    list-style: none;
-    text-align: center;
-    line-height: 60px;
-    padding-left: 0px;
+.nav-desktop a:hover {
+    color: #309C6F;
 }
 
-  .nav-mobile {
+.nav-mobile ul{
+    list-style: none;
+    line-height: 50px;
+    padding-left: 0px;
+    font-size: 17px;
+}
+
+.nav-mobile ul, .footer-social {
+    text-align: center;
+}
+
+.nav-mobile {
     position: absolute;
     top: 80px;
     width: 100%;
     box-shadow: 0px 4px rgb(0, 0, 0, .30);
-    padding-bottom: 30px;
-    align-items: center;
 }
 
-.hamburger-menu:has(#menu-checkbox:checked) ~ .nav-mobile{
-    display: block;
-    }
-
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-    margin: 0%;
+.nav-mobile, header, .footerlogo, .footer-links, .footer-social, .footer-links {
+    align-items: center;
 }
 
 header {
-    display: flex;
     height: 80px;
-    color: white;
-    align-items: center;
+    background-color: white;
+}
+
+header, footer, .footerlogo, .footer-links, .footer-social {
+    display: flex;
 }
 
 nav a, nav li, footer li, footer a {
@@ -71,42 +79,31 @@ nav a, nav li, footer li, footer a {
 }
 
 footer {
-    display: flex;
     background-color: #0B2344;
     padding: 10px 0px;
 }
 
-footer a:visited, footer a:link, footer p, #social-icons {
+footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
     color: white;
-}
-
-footer li {
-    display: inline-block;
 }
 
 .footerlogo, .footer-links, .footer-social{
     flex: 1;
-    display: flex;
     justify-content: center;
-    align-items: center;
 } 
 
-.footer-social {
+.hamburger-menu:has(#menu-checkbox:checked) ~ .nav-mobile, .footer-social{
     display: block;
-    text-align: center;
-    font-size: 13px;
-    margin: auto;
 }
 
-.footer-links {
-    align-items: center;
+.footer-social {
+    font-size: 13px;
+    margin: auto;
 }
 
 .footer-links a {
     padding-inline: 20px;
 }
-
-
 
 
 
@@ -117,13 +114,26 @@ footer li {
     }
 
     header {
-        display: flex;
         justify-content: center;
         align-items: center;
+        display: flex;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding: 20px 0px;
+    }
+
+    .footerlogo {
+        grid-row: 1/ span 2 ;
+    }
+
+    .logo, .footer-links {
+        margin: auto;
     }
 
     .logo {
-        margin: auto;
         padding-left: 10px;
     }
 
@@ -131,28 +141,8 @@ footer li {
         margin-left: 40px;
     }
 
-    footer {
-        flex-wrap: wrap;
-    }
-
-    .footerlogo, .footer-links {
-        display: flex;
-        justify-content: flex-start;
-        flex: 1;
-    }
-
-    .footerlogo {
-        margin-left: 40px;
-    }
-
-    .footer-social {
-        flex: 100%;
-    }
-
     .footer-links {
         display: block;
-        text-align: left;
-        margin: auto;
         max-width: 150px;
     }
 
@@ -166,16 +156,17 @@ footer li {
     }
 
     .footer-social {
-        text-align: right;
+        text-align: left;
+        padding-top: 20px;
     }
 
     .footer-links {
-        margin-right: 15px;
+        margin-right: 45px;
         line-height: 25px;
     }
 
     .footer-social {
-        margin-right: 20px;
+        margin-right: 50px;
     }
 
     #social-icons {
@@ -198,7 +189,7 @@ footer li {
 
     .logo {
         margin: auto;
-        padding-left: 10px;
+        padding-right: 50px;
     }
 
     .hamburger-icon {
