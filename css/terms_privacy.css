@@ -1,0 +1,44 @@
+.last-update {
+    margin-left: 90px;
+    padding-top: 30px;
+}
+
+.terms {
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 10px;
+    margin: 0px;
+}
+
+.terms p, .terms ul {
+    padding: 0px 90px;
+    line-height: 30px;
+}
+
+.terms h2 {
+    background-color: #EDEFEF;
+    padding: 20px 90px;
+    color: #D94F0C;
+}
+
+.terms-intro {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.terms-intro p {
+    font-size: 14px;
+    max-width: 70%;
+}
+
+.terms-intro h2 {
+    flex: 100%;
+}
+
+.terms-content li {
+    font-size: 14px;
+}
+
+.robot-desktop-terms-privacy{
+    width: 90px;
+}
