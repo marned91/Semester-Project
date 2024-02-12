@@ -15,15 +15,19 @@ h2 {
     font-size: 18px;
 }
 
-h3 {
+h3, .h3 {
     font-size: 16px;
 }
 
-p {
-    font-size: 14px;
+h3 {
+    color: #D94F0C;
 }
 
-h2, h3, p, li, a {
+p {
+    font-size: 15px;
+}
+
+h2, h3, p, li, a, .h3 {
     font-family: 'Manrope';
 }
 
@@ -39,7 +43,7 @@ h2, h3, p, li, a {
     font-size: 35px;
 }
 
-h1, nav li, .nav-desktop, .nav-mobile, nav a:visited, nav a:link, .hamburger-icon {
+h1, nav li, .nav-desktop, .nav-mobile, nav a:visited, nav a:link, .hamburger-icon, .h2-blue, .page-intro {
     color: #0B2344;
 }
 
@@ -67,6 +71,7 @@ h1, nav li, .nav-desktop, .nav-mobile, nav a:visited, nav a:link, .hamburger-ico
     top: 80px;
     width: 100%;
     box-shadow: 0px 4px rgb(0, 0, 0, .30);
+    z-index: 2;
 }
 
 .nav-mobile, header, .footerlogo, .footer-links, .footer-social, .footer-links {
@@ -82,8 +87,11 @@ header, footer, .footerlogo, .footer-links, .footer-social {
     display: flex;
 }
 
-nav a, nav li, footer li, footer a {
+nav a, nav li, footer li, footer a, a {
     text-decoration: none;
+}
+
+nav a, nav li, footer li, footer a {
     font-weight: bold;
 }
 
@@ -121,7 +129,7 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
 .page-intro {
     position: relative;
     text-align: left;
-    color: #0B2344;
+    z-index: 1;
 }
 
 .page-intro-h1 {
@@ -132,11 +140,23 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
     padding-top: 15px;
 }
 
+.page-divider-home, .page-divider-home2 {
+    background-color: #EDEFEF;
+}
+
+.button {
+    background: #D94F0C;
+    color: black;
+    padding: 10px 30px;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
 
 
 /*mobile and small tablets*/
 @media screen and (min-width: 300px) and (max-width: 600px){
-    .nav-desktop, .nav-mobile, .desktop-small-background, .desktop-small-background-home {
+    .nav-desktop, .nav-mobile, .desktop-small-background, .desktop-background-home {
         display: none;
     }
 
@@ -209,7 +229,7 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
 
 /*smaller and lagrer tablets*/
 @media screen and (min-width: 601px) and (max-width: 900px){
-    .nav-desktop, .nav-mobile, .desktop-small-background, .desktop-small-background-home{
+    .nav-desktop, .nav-mobile, .desktop-small-background, .desktop-background-home{
         display: none;
     }
 
@@ -240,7 +260,7 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
 
 /*laptop and desktop*/
 @media screen and (min-width: 901px) and (max-width: 20000px){
-    .nav-mobile, .hamburger-menu:has(#menu-checkbox:checked) ~ .nav-mobile, .hamburger-icon, .mobile-small-background, .mobile-small-background-home  {
+    .nav-mobile, .hamburger-menu:has(#menu-checkbox:checked) ~ .nav-mobile, .hamburger-icon, .mobile-small-background, .mobile-background-home  {
         display: none;
     }
 
@@ -282,16 +302,20 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
         height: 130px;
     }
 
-    .mobile-small-background, .mobile-small-background-home {
+    .mobile-small-background, .mobile-background-home {
         display: none;
     }
 
     .robot-desktop {
-        width: 120px;
+        width: 70px;
     }
 
     p {
         font-size: 14px;
+    }
+
+    .page-divider-home {
+        padding: 40px;
     }
 
 
