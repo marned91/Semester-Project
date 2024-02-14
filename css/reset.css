@@ -12,19 +12,19 @@ h1 {
 }
 
 h2 {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 h3, .h3 {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 h3 {
-    color: #D94F0C;
+    color: #ED5E0F;
 }
 
 p {
-    font-size: 15px;
+    font-size: 16px;
 }
 
 h2, h3, p, li, a, .h3 {
@@ -134,20 +134,17 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
 
 .page-intro-h1 {
     position: absolute;
-    top: 30px;
-    margin: auto;
-    padding-left: 90px;
-    padding-top: 15px;
 }
+
 
 .page-divider-home, .page-divider-home2 {
     background-color: #EDEFEF;
 }
 
 .button {
-    background: #D94F0C;
+    background: #ED5E0F;
     color: black;
-    padding: 10px 30px;
+    padding: 10px 35px;
     border-radius: 15px;
     font-size: 15px;
 }
@@ -156,7 +153,7 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
 
 /*mobile and small tablets*/
 @media screen and (min-width: 300px) and (max-width: 600px){
-    .nav-desktop, .nav-mobile, .desktop-small-background, .desktop-background-home {
+    .nav-desktop, .nav-mobile, .desktop-small-background {
         display: none;
     }
 
@@ -223,13 +220,45 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
 
     .mobile-small-background {
         width: 100%;
-        height: 75px;
+        height: auto;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    .page-intro-h1 {
+        top: 20px;
+        padding-left: 20px;
+        padding-top: 5px;
+    }
+
+    .robot {
+        width: 50px;
+    }
+
+    .button {
+        padding: 10px 30px;
+        border-radius: 15px;
+        font-size: 13px;
     }
 }
 
 /*smaller and lagrer tablets*/
 @media screen and (min-width: 601px) and (max-width: 900px){
-    .nav-desktop, .nav-mobile, .desktop-small-background, .desktop-background-home{
+    .nav-desktop, .nav-mobile, .desktop-small-background{
         display: none;
     }
 
@@ -248,19 +277,48 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
         margin-left: 100px;
     }
 
-    .mobile-small-background {
-        width: 100%;
-        height: 90px;
+    p {
+        font-size: 13px;
     }
 
-    p {
-        font-size: 12px;
+    h1 {
+        font-size: 20px;
     }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    .page-intro-h1 {
+        top: 20px;
+        padding-left: 35px;
+        padding-top: 0px;
+    }
+
+    .mobile-small-background {
+        width: 100%;
+        height: auto;
+    }
+
+    .robot {
+        width: 60px;
+    }
+
+    .button {
+        padding: 10px 30px;
+        border-radius: 15px;
+        font-size: 14px;
+    }
+
 }
 
 /*laptop and desktop*/
 @media screen and (min-width: 901px) and (max-width: 20000px){
-    .nav-mobile, .hamburger-menu:has(#menu-checkbox:checked) ~ .nav-mobile, .hamburger-icon, .mobile-small-background, .mobile-background-home  {
+    .nav-mobile, .hamburger-menu:has(#menu-checkbox:checked) ~ .nav-mobile, .hamburger-icon, .mobile-small-background {
         display: none;
     }
 
@@ -299,23 +357,17 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
 
     .desktop-small-background {
         width: 100%;
-        height: 130px;
+        height: auto;
     }
 
-    .mobile-small-background, .mobile-background-home {
-        display: none;
-    }
-
-    .robot-desktop {
+    .robot {
         width: 70px;
     }
 
-    p {
-        font-size: 14px;
-    }
-
-    .page-divider-home {
-        padding: 40px;
+    .page-intro-h1 {
+        bottom: 10px;
+        padding: 20px;
+        left: 10%;
     }
 
 
