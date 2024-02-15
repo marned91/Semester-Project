@@ -19,7 +19,7 @@ h3, .h3 {
     font-size: 18px;
 }
 
-h3 {
+h3, .h2-orange {
     color: #ED5E0F;
 }
 
@@ -136,11 +136,6 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
     position: absolute;
 }
 
-
-.page-divider-home, .page-divider-home2 {
-    background-color: #EDEFEF;
-}
-
 .button {
     background: #ED5E0F;
     color: black;
@@ -149,11 +144,15 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
     font-size: 15px;
 }
 
+.page-divider {
+    display: flex;
+}
+
 
 
 /*mobile and small tablets*/
 @media screen and (min-width: 300px) and (max-width: 600px){
-    .nav-desktop, .nav-mobile, .desktop-small-background {
+    .nav-desktop, .nav-mobile, .desktop-small-background, .tablet-small-background {
         display: none;
     }
 
@@ -228,24 +227,24 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
     }
 
     h1 {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     h2 {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     h3 {
-        font-size: 15px;
+        font-size: 16px;
     }
 
     .page-intro-h1 {
         top: 20px;
-        padding-left: 20px;
+        padding-left: 50px;
         padding-top: 5px;
     }
 
-    .robot {
+    .robot-home, .robot-exhibitions, .robot-ecology {
         width: 50px;
     }
 
@@ -254,11 +253,16 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
         border-radius: 15px;
         font-size: 13px;
     }
+
+    .page-divider {
+        background-color: #EDEFEF;
+        
+    }
 }
 
 /*smaller and lagrer tablets*/
 @media screen and (min-width: 601px) and (max-width: 900px){
-    .nav-desktop, .nav-mobile, .desktop-small-background{
+    .nav-desktop, .nav-mobile, .mobile-small-background, .desktop-small-background{
         display: none;
     }
 
@@ -282,20 +286,20 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
     }
 
     h1 {
-        font-size: 20px;
+        font-size: 22px;
     }
 
     h2 {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     h3 {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .page-intro-h1 {
         top: 20px;
-        padding-left: 35px;
+        padding-left: 90px;
         padding-top: 0px;
     }
 
@@ -304,7 +308,7 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
         height: auto;
     }
 
-    .robot {
+    .robot-home, .robot-exhibitions, .robot-ecology {
         width: 60px;
     }
 
@@ -314,11 +318,16 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
         font-size: 14px;
     }
 
+    .page-divider {
+        background-color: #EDEFEF;
+        
+    }
+
 }
 
 /*laptop and desktop*/
 @media screen and (min-width: 901px) and (max-width: 20000px){
-    .nav-mobile, .hamburger-menu:has(#menu-checkbox:checked) ~ .nav-mobile, .hamburger-icon, .mobile-small-background {
+    .nav-mobile, .hamburger-menu:has(#menu-checkbox:checked) ~ .nav-mobile, .hamburger-icon, .mobile-small-background, .tablet-small-background {
         display: none;
     }
 
@@ -360,7 +369,7 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
         height: auto;
     }
 
-    .robot {
+    .robot-home, .robot-exhibitions, .robot-ecology {
         width: 70px;
     }
 
@@ -368,6 +377,10 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
         bottom: 10px;
         padding: 20px;
         left: 10%;
+    }
+
+    .page-divider {
+        background-color: #EDEFEF;
     }
 
 

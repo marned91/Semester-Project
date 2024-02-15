@@ -1,11 +1,71 @@
+.exhibitions, 
+
+.exhibitions {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   text-align: right;
+   gap: 40px;
+   padding-bottom: 90px;
+}
+
+
+.exhibition-image {
+    width: 100%;
+    height: auto;
+}
+
+.page-divider {
+    margin-top: -2px;
+}
+
+.exhibitions h2 {
+    padding: 20px;
+    background-color: #EDEFEF;
+    margin-top: -3px;
+    color: #ED5E0F;
+}
+
+.robot-exhibitions {
+    margin-left: auto;
+    margin-right: 60px;
+}
+
+
 
 /*mobile and small tablets*/
 @media screen and (min-width: 300px) and (max-width: 600px) {
+
+    .exhibitions {
+        margin: 9px 20px;
+        gap: 0px;
+        align-items: center;
+        margin-top: -1px;
+    }
+
+    .exhibition-image {
+        width: 100%;
+        height: auto;
+    }
 
 }
 
 /*smaller and lagrer tablets*/
 @media screen and (min-width: 601px) and (max-width: 900px){
+
+    .exhibitions {
+        margin: 9px 20px;
+        gap: 10px;
+        align-items: center;
+        margin-top: -1px;
+    }
+
+    .exhibition-image {
+        max-width: 120%;
+        height: auto;
+    }
+    
+
 
 }
 

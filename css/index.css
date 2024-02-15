@@ -42,7 +42,11 @@
     align-items: center;
 }
 
-.robot {
+.page-divider-home, .page-divider-home2 {
+    background-color: #EDEFEF;
+}
+
+.robot-home {
     margin-right: 80px;
 }
 
@@ -146,7 +150,7 @@
         margin: auto;
     }
 
-    .robot {
+    .robot-home {
         margin-right: 40px;
     }
 
@@ -220,7 +224,7 @@
         margin: 0px 70px;
     }
 
-    .robot {
+    .robot-home {
         margin-right: 50px;
     }
 

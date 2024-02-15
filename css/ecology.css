@@ -1,3 +1,70 @@
+.h1-invisible {
+    display: none;
+}
+
+.h2-orange {
+    margin-left: 80px;
+    padding: 30px;
+}
+
+.ecology-exhibition-part1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.ecology-exhibition-text {
+    background-color: #EDEFEF;
+    padding: 90px;
+    max-width: 100%;
+    line-height: 35px;
+}
+
+.ecology-exhibition-text p {
+    margin: auto;
+    max-width: 60%;
+
+}
+
+.ecology-img {
+    height: auto;
+    width: 100%;
+}
+
+.padding-p {
+    padding-top: 30px;
+}
+
+.ecology-exhibition-info {
+    display: flex; 
+    padding-bottom: 200px;
+    gap: 60px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.ecology-exhibition-info1, .ecology-exhibition-info2 {
+    flex: 1;
+    padding: 60px 0px;
+}
+
+.ecology-exhibition-info1{
+    display: flex;
+    justify-content: center;
+}
+
+.ecology-exhibition-info1 p {
+    max-width: 50%;
+}
+
+.ecology-exhibition-info2 {
+    background-color: #0B2344;
+    color: white;
+    justify-content: center;
+}
+
 
 /*mobile and small tablets*/
 @media screen and (min-width: 300px) and (max-width: 600px) {

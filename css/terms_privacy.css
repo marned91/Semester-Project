@@ -7,6 +7,7 @@
     display: grid;
     grid-template-rows: 1fr;
     margin: auto;
+    padding-bottom: 70px;
 }
 
 .terms div {
