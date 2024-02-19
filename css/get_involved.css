@@ -1,15 +1,141 @@
+.get-involved-intro, .get-involved-support, .get-involved-volunteer, .get-involved-internship {
+    display: flex;
+}
+
+.get-involved-intro {
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    padding: 40px 0px;
+}
+
+.get-involved-intro p {
+    max-width: 70%;
+    line-height: 30px;
+}
+
+.get-involved-support, .get-involved-volunteer, .get-involved-internship {
+    gap: 30px;
+}
+
+.get-involved-volunteer {
+    flex-direction: row-reverse;
+}
+
+.get-involved-image, .get-involved-text {
+    flex: 1;
+}
+
+.get-involved-img {
+    width: 100%;
+    height: auto;
+}
+
+.get-involved-text {
+    margin: auto;
+    line-height: 35px;
+    padding: 10px 20px;
+}
+
 
 /*mobile and small tablets*/
 @media screen and (min-width: 300px) and (max-width: 600px) {
+    
+    .get-involved-intro, .get-involved-support, .get-involved-volunteer, .get-involved-internship {
+        flex-direction: column;
+    }
+    
+    .get-involved-intro {
+        padding: 20px 0px;
+    }
+
+    .get-involved-intro, .get-involved-support, .get-involved-volunteer, .get-involved-internship {
+        gap: 0px;
+    }
+
+    .page-divider-get-involved, .h2-orange-desktop {
+        display: none;
+    }
+
+    .robot-get-involved {
+        margin-left: auto;
+        margin-right: 30px;
+    }
+    
+    .get-involved-intro p {
+        max-width: 90%;
+        margin: 0px 10px;
+    }
+
+    .get-involved-text {
+        line-height: 30px;
+        background-color: #EDEFEF;
+        margin-top: -3px;
+    }
+
+    .h2-orange-mobile {
+        padding: 10px 0px;
+        margin-left: 20px;
+    }
 
 }
 
 /*smaller and lagrer tablets*/
 @media screen and (min-width: 601px) and (max-width: 900px){
 
+    .page-divider-get-involved, .h2-orange-desktop {
+        display: none;
+    }
+
+    .get-involved-intro, .get-involved-support, .get-involved-volunteer, .get-involved-internship {
+        flex-direction: column;
+    }
+
+    .get-involved-intro, .get-involved-support, .get-involved-volunteer, .get-involved-internship {
+        gap: 0px;
+    }
+
+    .get-involved-intro {
+        padding: 20px 40px;
+    }
+
+    .robot-get-involved {
+        margin-left: auto;
+        margin-right: 30px;
+    }
+    
+    .get-involved-intro p {
+        max-width: 90%;
+        margin: 0px 10px;
+    }
+
+    .get-involved-text {
+        line-height: 30px;
+        background-color: #EDEFEF;
+        margin-top: -3px;
+        padding: 30px 70px;
+    }
+
+    .get-involved-text p {
+        padding-top: 10px;
+    }
+
+    .h2-orange-mobile {
+        padding: 10px;
+        margin-left: 60px;
+    }
+
+
 }
 
 /*laptop and desktop*/
 @media screen and (min-width: 901px) and (max-width: 20000px) {
+    .h2-orange-mobile {
+        display: none;
+    }
+
+    .page-divider-get-involved {
+        margin-top: -3px;
+    }
     
 }

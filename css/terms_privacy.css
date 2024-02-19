@@ -7,7 +7,7 @@
     display: grid;
     grid-template-rows: 1fr;
     margin: auto;
-    padding-bottom: 70px;
+    padding: 0px 30px 70px 0px;
 }
 
 .terms div {
@@ -121,7 +121,6 @@
     .robot-desktop-terms-privacy{
         height: 120px;
     }
-    
 
 }
 

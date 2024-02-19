@@ -8,7 +8,7 @@ html, body {
 
 h1 {
     font-family: 'Maven Pro';
-    font-size: 25px;
+    font-size: 30px;
 }
 
 h2 {
@@ -19,7 +19,7 @@ h3, .h3 {
     font-size: 18px;
 }
 
-h3, .h2-orange {
+h3, .h2-orange-desktop, .h2-orange2, .h2-orange-mobile {
     color: #ED5E0F;
 }
 
@@ -134,6 +134,10 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
 
 .page-intro-h1 {
     position: absolute;
+    top: 15%;
+    left: 7%;
+    padding-left: 90px;
+    padding-top: 0px;
 }
 
 .button {
@@ -226,10 +230,6 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
         font-size: 13px;
     }
 
-    h1 {
-        font-size: 20px;
-    }
-
     h2 {
         font-size: 18px;
     }
@@ -239,12 +239,13 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
     }
 
     .page-intro-h1 {
-        top: 20px;
+        top: 15%;
+        left: 5%;
         padding-left: 50px;
         padding-top: 5px;
     }
 
-    .robot-home, .robot-exhibitions, .robot-ecology {
+    .robot-home, .robot-exhibitions, .robot-ecology, .robot-get-involved {
         width: 50px;
     }
 
@@ -254,9 +255,13 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
         font-size: 13px;
     }
 
-    .page-divider {
+    .page-divider, .page-divider-small, .page-divider-get-involved {
         background-color: #EDEFEF;
         
+    }
+
+    .page-divider-small, .page-divider-get-involved {
+        padding: 20px;
     }
 }
 
@@ -285,10 +290,6 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
         font-size: 13px;
     }
 
-    h1 {
-        font-size: 22px;
-    }
-
     h2 {
         font-size: 20px;
     }
@@ -297,18 +298,12 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
         font-size: 18px;
     }
 
-    .page-intro-h1 {
-        top: 20px;
-        padding-left: 90px;
-        padding-top: 0px;
-    }
-
     .mobile-small-background {
         width: 100%;
         height: auto;
     }
 
-    .robot-home, .robot-exhibitions, .robot-ecology {
+    .robot-home, .robot-exhibitions, .robot-ecology,.robot-get-involved {
         width: 60px;
     }
 
@@ -318,8 +313,9 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
         font-size: 14px;
     }
 
-    .page-divider {
+    .page-divider, .page-divider-small, .page-divider-get-involved {
         background-color: #EDEFEF;
+        padding: 25px;
         
     }
 
@@ -369,18 +365,16 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
         height: auto;
     }
 
-    .robot-home, .robot-exhibitions, .robot-ecology {
+    .robot-home, .robot-exhibitions, .robot-ecology, .robot-get-involved {
         width: 70px;
     }
 
-    .page-intro-h1 {
-        bottom: 10px;
-        padding: 20px;
-        left: 10%;
+    .page-divider, .page-divider-small, .page-divider-get-involved {
+        background-color: #EDEFEF;
     }
 
-    .page-divider {
-        background-color: #EDEFEF;
+    .page-divider-small, .page-divider-get-involved {
+        padding: 30px;
     }
 
 

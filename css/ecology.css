@@ -2,7 +2,7 @@
     display: none;
 }
 
-.h2-orange {
+.h2-orange2 {
     margin-left: 80px;
     padding: 30px;
 }
@@ -83,7 +83,7 @@
         display: none;
     }
 
-    .h2-orange {
+    .h2-orange2 {
         margin: auto;
         padding: 20px;
     }
@@ -147,7 +147,9 @@
         display: none;
     }
 
-    .h2-orange {
+
+
+    .h2-orange2 {
         margin: auto;
         padding: 20px;
     }

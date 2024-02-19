@@ -150,26 +150,33 @@
         margin: auto;
     }
 
+    .popular-exhibition, .popular-exhibition-reverse{
+        margin: 0px;
+    }
+
     .robot-home {
         margin-right: 40px;
     }
 
-    .h2-blue {
-        margin-left: 40px;
+    .h2-blue, .home-h3-mobile {
+        margin-left: 30px;
     }
 
     .popular-exhibition-text {
-        padding: 10px;
+        padding: 10px 30px;
     }
 
     .home-h3-mobile {
-        margin-left: 10px;
         font-size: 16px;
     }
 
     .popular-exhibition, .popular-exhibition-reverse {
         padding-bottom: 20px;
         gap: 10px;
+    }
+
+    .page-divider-home2, .exploration {
+        margin-top: 20px;
     }
  
    
@@ -228,12 +235,12 @@
         margin-right: 50px;
     }
 
-    .h2-blue {
-        margin-left:50px;
+    .h2-blue, .home-h3-mobile {
+        margin-left: 60px;
     }
 
-    .popular-exhibition {
-        margin: 0px 30px;
+    .popular-exhibition, .popular-exhibition-reverse {
+        margin: 0px;
     }
 
     .popular-exhibition-text {
@@ -242,14 +249,16 @@
     }
 
     .home-h3-mobile {
-        margin-left: 15px;
         padding-top: 10px;
     }
 
     .popular-exhibition, .popular-exhibition-reverse {
-        margin: 0px 50px;
         padding-bottom: 20px;
         gap: 10px;
+    }
+
+    .page-divider-home2, .exploration {
+        margin-top: 20px;
     }
     
 

@@ -43,11 +43,6 @@
         margin-top: -1px;
     }
 
-    .exhibition-image {
-        width: 100%;
-        height: auto;
-    }
-
 }
 
 /*smaller and lagrer tablets*/
@@ -58,11 +53,6 @@
         gap: 10px;
         align-items: center;
         margin-top: -1px;
-    }
-
-    .exhibition-image {
-        max-width: 120%;
-        height: auto;
     }
     
 
