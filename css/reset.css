@@ -153,6 +153,10 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
     display: flex;
 }
 
+.page-divider, .page-divider-small, .page-divider-get-involved {
+    background-color: #EDEFEF;
+}
+
 
 
 /*mobile and small tablets*/
@@ -260,11 +264,6 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
         font-size: 13px;
     }
 
-    .page-divider, .page-divider-small, .page-divider-get-involved {
-        background-color: #EDEFEF;
-        
-    }
-
     .page-divider-small, .page-divider-get-involved {
         padding: 20px;
     }
@@ -323,7 +322,6 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
     }
 
     .page-divider, .page-divider-small, .page-divider-get-involved {
-        background-color: #EDEFEF;
         padding: 25px;
         
     }
@@ -376,10 +374,6 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
 
     .robot-home, .robot-exhibitions, .robot-ecology, .robot-get-involved  {
         width: 80px;
-    }
-
-    .page-divider, .page-divider-small, .page-divider-get-involved {
-        background-color: #EDEFEF;
     }
 
     .page-divider-small, .page-divider-get-involved {
