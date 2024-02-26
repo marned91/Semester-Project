@@ -47,6 +47,10 @@ h1, nav li, .nav-desktop, .nav-mobile, nav a:visited, nav a:link, .hamburger-ico
     color: #0B2344;
 }
 
+.back-top-i {
+    color: black;
+}
+
 .nav-mobile ul, .nav-mobile nav, .nav-mobile li, .nav-mobile{
     background-color: #309C6F;
 }
@@ -87,7 +91,7 @@ header, footer, .footerlogo, .footer-links, .footer-social {
     display: flex;
 }
 
-nav a, nav li, footer li, footer a, a {
+nav a, nav li, footer li, footer a, a, .back-top-i {
     text-decoration: none;
 }
 
@@ -122,8 +126,8 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
     margin: auto;
 }
 
-.footer-links a {
-   padding-right: 40px;
+.footer-links{
+   gap: 40px;
 }
 
 .page-intro {
@@ -181,10 +185,6 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
         grid-row: 1/ span 2 ;
     }
 
-    .logo, .footer-links {
-        margin: auto;
-    }
-
     .logo {
         padding-left: 10px;
     }
@@ -208,21 +208,21 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
     }
 
     .footer-social {
-        text-align: left;
         padding-top: 20px;
     }
 
     .footer-links {
-        margin-right: 45px;
         line-height: 25px;
+        margin: auto;
     }
 
-    .footer-social {
-        margin-right: 50px;
+    .footer-links a, .footer-social p {
+        font-size: 13px;
     }
+
 
     #social-icons {
-        font-size: 15px;
+        font-size: 18px;
         padding-right: 5px;
     }
 
@@ -267,11 +267,21 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
     .page-divider-small, .page-divider-get-involved {
         padding: 20px;
     }
+
+    .back-top {
+        text-align: center;
+        padding: 40px 0px;
+        line-height: 5px;
+    }
+
+    .back-top p {
+        font-size: 16px;
+    }
 }
 
 /*smaller and lagrer tablets*/
 @media screen and (min-width: 601px) and (max-width: 900px){
-    .nav-desktop, .nav-mobile, .mobile-small-background, .desktop-small-background{
+    .nav-desktop, .nav-mobile, .mobile-small-background, .desktop-small-background {
         display: none;
     }
 
@@ -290,6 +300,14 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
         margin-left: 100px;
     }
 
+    .footer-links a, .footer-social p {
+        font-size: 13px;
+    }
+
+    .footer-links{
+        gap: 20px;
+     }
+
     p, .button {
         font-size: 15px;
     }
@@ -302,7 +320,7 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
         font-size: 20px;
     }
 
-    h3 {
+    h3, #social-icons {
         font-size: 18px;
     }
 
@@ -330,7 +348,7 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
 
 /*laptop and desktop*/
 @media screen and (min-width: 901px) and (max-width: 20000px){
-    .nav-mobile, .hamburger-menu:has(#menu-checkbox:checked) ~ .nav-mobile, .hamburger-icon, .mobile-small-background, .tablet-small-background {
+    .nav-mobile, .hamburger-menu:has(#menu-checkbox:checked) ~ .nav-mobile, .hamburger-icon, .mobile-small-background, .tablet-small-background, .back-top {
         display: none;
     }
 
