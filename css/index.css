@@ -82,8 +82,8 @@
 
 .popular-exhibition, .popular-exhibition-reverse {
     margin: 0px 20px;
-    padding-bottom: 50px;
-    gap: 70px;
+    padding-bottom: 70px;
+    gap: 50px;
 }
 
 .popular-exhibition-reverse {

@@ -2,9 +2,10 @@
     display: none;
 }
 
-.h2-orange2 {
+.page-divider h2 {
     margin-left: 80px;
     padding: 30px;
+    font-size: 25px;
 }
 
 .ecology-exhibition-part1 {
@@ -23,7 +24,7 @@
 
 .ecology-exhibition-text p {
     margin: auto;
-    max-width: 60%;
+    max-width: 80%;
 }
 
 .ecology-img-desktop {
@@ -83,9 +84,10 @@
         display: none;
     }
 
-    .h2-orange2 {
+    .page-divider h2{
         margin: auto;
         padding: 20px;
+        font-size: 20px;
     }
 
     .ecology-exhibition-text {
@@ -147,11 +149,10 @@
         display: none;
     }
 
-
-
-    .h2-orange2 {
+    .page-divider h2 {
         margin: auto;
         padding: 20px;
+        font-size: 25px;
     }
 
     .ecology-exhibition-text {

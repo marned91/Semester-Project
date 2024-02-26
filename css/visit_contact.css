@@ -40,6 +40,7 @@ button {
 input, textarea {
     border-radius: 10px;
     border-style: none;
+    padding-inline-start: 10px;
 }
 
 form input, form textarea, .google-map {
@@ -62,7 +63,7 @@ form input, form textarea, .google-map {
     flex-wrap: wrap;
     align-items: center;
     background-color: #EDEFEF;
-    padding: 60px 50px;
+    padding: 60px;
 }
 
 .visit-info p {
