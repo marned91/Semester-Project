@@ -231,6 +231,10 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
         font-size: 13px;
     }
 
+    h1 {
+        font-size: 22px;
+    }
+
     h2 {
         font-size: 18px;
     }
@@ -240,8 +244,8 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
     }
 
     .page-intro-h1 {
-        top: 15%;
-        left: 5%;
+        top: 10%;
+        left: 4%;
         padding-left: 50px;
         padding-top: 5px;
     }
@@ -289,6 +293,10 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
 
     p, .button {
         font-size: 15px;
+    }
+
+    h1 {
+        font-size: 25px ;
     }
 
     h2 {
