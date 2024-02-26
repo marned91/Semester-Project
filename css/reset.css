@@ -19,15 +19,15 @@ h3, .h3 {
     font-size: 18px;
 }
 
-h3, .h2-orange-desktop, .h2-orange2, .h2-orange-mobile {
+h3, .h2-orange-desktop, .h2-orange2, .h2-orange-mobile, .h2-orange {
     color: #ED5E0F;
 }
 
-p {
+p, .button {
     font-size: 16px;
 }
 
-h2, h3, p, li, a, .h3 {
+h2, h3, p, li, a, .h3, .contactform, .button {
     font-family: 'Manrope';
 }
 
@@ -43,7 +43,7 @@ h2, h3, p, li, a, .h3 {
     font-size: 35px;
 }
 
-h1, nav li, .nav-desktop, .nav-mobile, nav a:visited, nav a:link, .hamburger-icon, .h2-blue, .page-intro {
+h1, nav li, .nav-desktop, .nav-mobile, nav a:visited, nav a:link, .hamburger-icon, .h2-blue, .page-intro, .h3-blue {
     color: #0B2344;
 }
 
@@ -146,6 +146,7 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
     padding: 10px 35px;
     border-radius: 15px;
     font-size: 15px;
+    border: none;
 }
 
 .page-divider {
@@ -226,7 +227,7 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
         height: auto;
     }
 
-    p {
+    p, .button {
         font-size: 13px;
     }
 
@@ -245,7 +246,7 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
         padding-top: 5px;
     }
 
-    .robot-home, .robot-exhibitions, .robot-ecology, .robot-get-involved {
+    .robot-home, .robot-exhibitions, .robot-ecology, .robot-get-involved, .robot-visit {
         width: 50px;
     }
 
@@ -286,8 +287,8 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
         margin-left: 100px;
     }
 
-    p {
-        font-size: 13px;
+    p, .button {
+        font-size: 15px;
     }
 
     h2 {
@@ -303,7 +304,7 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
         height: auto;
     }
 
-    .robot-home, .robot-exhibitions, .robot-ecology,.robot-get-involved {
+    .robot-home, .robot-exhibitions, .robot-ecology,.robot-get-involved, .robot-visit  {
         width: 60px;
     }
 
@@ -365,7 +366,7 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
         height: auto;
     }
 
-    .robot-home, .robot-exhibitions, .robot-ecology, .robot-get-involved {
+    .robot-home, .robot-exhibitions, .robot-ecology, .robot-get-involved  {
         width: 70px;
     }
 
