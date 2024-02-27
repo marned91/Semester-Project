@@ -274,6 +274,7 @@
     }
 
     /*negativ margin is set to avoid gap between elements*/
+    /*height 100% is set to match height of background color in home-intro-text*/
     .desktop-background-home {
         width: 100%;
         height: 100%;

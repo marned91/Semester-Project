@@ -48,7 +48,7 @@ h1, nav li, .nav-desktop, .nav-mobile, nav a:visited, nav a:link, .hamburger-ico
 }
 
 .back-top-i {
-    color: black;
+    color: #0B2344;
 }
 
 .nav-mobile ul, .nav-mobile nav, .nav-mobile li, .nav-mobile{
@@ -63,7 +63,7 @@ h1, nav li, .nav-desktop, .nav-mobile, nav a:visited, nav a:link, .hamburger-ico
     list-style: none;
     line-height: 50px;
     padding-left: 0px;
-    font-size: 17px;
+    font-size: 18px;
 }
 
 .nav-mobile ul, .footer-social {
@@ -153,8 +153,10 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
     border: none;
 }
 
+/*negativ margin is set to avoid gap between elements*/
 .page-divider {
     display: flex;
+    margin-top: -4px;
 }
 
 .page-divider, .page-divider-small, .page-divider-get-involved {
@@ -347,6 +349,16 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
         
     }
 
+    .back-top {
+        text-align: center;
+        padding: 40px 0px;
+        line-height: 5px;
+    }
+
+    .back-top p {
+        font-size: 16px;
+    }
+
 }
 
 /*laptop and desktop*/
@@ -394,7 +406,7 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
     }
 
     .robot-home, .robot-exhibitions, .robot-ecology, .robot-get-involved  {
-        width: 80px;
+        max-width: 80px;
     }
 
     .page-divider-small, .page-divider-get-involved {
