@@ -50,7 +50,7 @@
 }
 
 .exploration {
-    margin: 0px 80px;
+    margin: 0px 50px;
 }
 
 .exploration, .popular-exhibition, .popular-exhibition-reverse {
@@ -219,8 +219,15 @@
     }
 
     .home-intro-text p, .popular-exhibition-text {
-        padding: 10px;
         max-width: 100%;
+    }
+
+    .home-intro-text p {
+        padding: 10px;
+    }
+
+    .popular-exhibition-text {
+        padding: 10px 60px;
     }
 
     /*negativ margin is set to avoid gap between elements*/
