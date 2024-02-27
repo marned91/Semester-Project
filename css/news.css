@@ -1,8 +1,12 @@
 .under-construction {
     display: flex;
     justify-content: space-between;
-    margin-top: -4px;
     align-items: center;
+}
+
+/*negativ margin is set to avoid gap between elements*/
+.under-construction, .sneak-upcoming {
+    margin-top: -4px;
 }
 
 .under-construction-text, .under-construction-image {
@@ -31,7 +35,6 @@
     grid-template-columns: repeat(3, 1fr);
     padding: 30px;
     gap: 10px;
-    margin-top: -4px;
 }
 
 .upcoming-info {
@@ -43,10 +46,7 @@
 @media screen and (min-width: 300px) and (max-width: 600px) {
 
     .under-construction {
-        display: flex;
         flex-wrap: wrap;
-        margin-top: -4px;
-        align-items: center;
     }
     
     .under-construction-text, .under-construction-image {
