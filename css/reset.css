@@ -154,12 +154,12 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
 }
 
 /*negativ margin is set to avoid gap between elements*/
-.page-divider {
+.page-divider,.page-divider2 {
     display: flex;
     margin-top: -4px;
 }
 
-.page-divider, .page-divider-small, .page-divider-get-involved {
+.page-divider, .page-divider-small, .page-divider-get-involved, .page-divider2 {
     background-color: #EDEFEF;
 }
 

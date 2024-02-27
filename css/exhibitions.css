@@ -1,12 +1,7 @@
-.exhibitions, 
-
 .exhibitions {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
-   text-align: right;
-   gap: 40px;
-   padding-bottom: 90px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 30px;
 }
 
 
@@ -15,16 +10,18 @@
     height: auto;
 }
 
+/*negativ margin is set to avoid gap between elements*/
 .exhibitions h2 {
-    padding: 20px;
+    padding: 20px 30px 20px 20px;
     background-color: #EDEFEF;
-    margin-top: -3px;
+    margin-top: -4px;
     color: #ED5E0F;
+    text-align: right;
 }
 
 .robot-exhibitions {
     margin-left: auto;
-    margin-right: 60px;
+    margin-right: 50px;
 }
 
 
@@ -32,11 +29,19 @@
 /*mobile and small tablets*/
 @media screen and (min-width: 300px) and (max-width: 600px) {
 
+    /*negativ margin is set to avoid gap between elements*/
     .exhibitions {
-        margin: 9px 20px;
-        gap: 0px;
+        grid-template-columns: 1fr;
+        margin: auto;
+        gap: 20px;
         align-items: center;
         margin-top: -1px;
+        width: 100%;
+        padding-bottom: 50px;
+    }
+
+    .exhibitions h2 {
+        padding: 10px 20px 10px 10px;
     }
 
 }
@@ -44,18 +49,22 @@
 /*smaller and lagrer tablets*/
 @media screen and (min-width: 601px) and (max-width: 900px){
 
+    /*negativ margin is set to avoid gap between elements*/
     .exhibitions {
-        margin: 9px 20px;
-        gap: 10px;
+        margin: auto;
+        gap: 20px;
         align-items: center;
         margin-top: -1px;
+        width: 100%;
+        padding-bottom: 70px;
     }
-    
-
 
 }
 
 /*laptop and desktop*/
 @media screen and (min-width: 901px) and (max-width: 20000px) {
     
+    .exhibitions {
+        padding-bottom: 100px;
+    }
 }
