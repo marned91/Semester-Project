@@ -14,10 +14,6 @@
     line-height: 30px;
 }
 
-.get-involved-support, .get-involved-volunteer, .get-involved-internship {
-    gap: 30px;
-}
-
 .get-involved-volunteer {
     flex-direction: row-reverse;
 }
@@ -67,10 +63,11 @@
         margin: 0px 10px;
     }
 
+    /*negativ margin is set to avoid gap between elements*/
     .get-involved-text {
         line-height: 30px;
         background-color: #EDEFEF;
-        margin-top: -3px;
+        margin-top: -4px;
     }
 
     .h2-orange-mobile {
@@ -109,10 +106,11 @@
         margin: 0px 10px;
     }
 
+    /*negativ margin is set to avoid gap between elements*/
     .get-involved-text {
         line-height: 30px;
         background-color: #EDEFEF;
-        margin-top: -3px;
+        margin-top: -4px;
         padding: 30px 70px;
     }
 
@@ -134,8 +132,13 @@
         display: none;
     }
 
+    /*negativ margin is set to avoid gap between elements*/
     .page-divider-get-involved {
         margin-top: -3px;
+    }
+
+    .get-involved-support, .get-involved-volunteer, .get-involved-internship {
+        gap: 30px;
     }
     
 }
