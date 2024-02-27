@@ -43,7 +43,7 @@ h2, h3, p, li, a, .h3, .contactform, .button {
     font-size: 35px;
 }
 
-h1, nav li, .nav-desktop, .nav-mobile, nav a:visited, nav a:link, .hamburger-icon, .h2-blue, .page-intro, .h3-blue, .back-top, .back-top a:link, .back-top a:visited {
+h1, nav li, .nav-desktop, .nav-mobile, nav a:visited, nav a:link, .hamburger-icon, .h2-blue, .page-intro, .h3-blue, .back-top, .back-top a:link, .back-top a:visited, .fa-solid {
     color: #0B2344;
 }
 
