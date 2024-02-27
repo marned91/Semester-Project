@@ -189,6 +189,10 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
         padding-left: 10px;
     }
 
+    .logo, .footer-links {
+        margin: auto;
+    }
+
     .hamburger-icon {
         margin-left: 40px;
     }
@@ -213,7 +217,6 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
 
     .footer-links {
         line-height: 25px;
-        margin: auto;
     }
 
     .footer-links a, .footer-social p {
