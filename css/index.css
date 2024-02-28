@@ -2,7 +2,7 @@
     display: flex;
 }
 
-.home-intro-text, .home-intro-image, .exploration-info, .popular-exhibition, .popular-exhibition-reverse  {
+.home-intro-text, .home-intro-image, .exploration-info, .popular-exhibition, .popular-exhibition-reverse, .popular-exhibition-image, .popular-exhibition-text  {
     flex: 1;
 }
 
@@ -13,14 +13,10 @@
 
 .home-intro-text p {
     color: #0B2344;
-    padding-top: 20px;
+    padding-top: 30px;
     line-height: 40px;
-    max-width: 80%;
-    margin: 0px 10px 20px 90px;
-}
-
-.home-intro-text p {
-    font-size: 17px;
+    max-width: 90%;
+    margin: auto;
 }
 
 .home-h1 {
@@ -49,15 +45,15 @@
     margin-right: 80px;
 }
 
-.exploration {
+.exploration,.popular-exhibition, .popular-exhibition-reverse {
     margin: 0px 50px;
 }
 
-.exploration, .popular-exhibition, .popular-exhibition-reverse {
+.exploration, .popular-exhibition, .popular-exhibition-reverse  {
     gap: 50px;
 }
 
-.exploration, .popular-exhibition, .popular-exhibition-reverse {
+.exploration {
     justify-content: center;
 }
 
@@ -83,7 +79,6 @@
 }
 
 .popular-exhibition, .popular-exhibition-reverse {
-    margin: 0px 20px;
     padding-bottom: 70px;
 }
 
@@ -92,8 +87,8 @@
 }
 
 .popular-exhibition-text {
-    line-height: 33px;
-    max-width: 45%;
+    line-height: 35px;
+    max-width: 60%;
 }
 
 /*mobile and small tablets*/
@@ -290,6 +285,10 @@
 
     .page-divider-home {
         padding: 40px;
+    }
+
+    .home-intro-text p {
+        font-size: 18px;
     }
     
 }

@@ -3,6 +3,7 @@
     justify-content: center;
 }
 
+
 .contact, .google-map {
     height: 600px;
 }
@@ -182,6 +183,14 @@ form input, form textarea, .google-map {
 
     .robot-visit {
         width: 120px;
+    }
+    
+    .contactform {
+        padding-top: 30px;
+    }
+
+    .visit-robots {
+        margin-right: 40px;
     }
 
     

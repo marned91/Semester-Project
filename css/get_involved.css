@@ -12,6 +12,7 @@
 .get-involved-intro p {
     max-width: 70%;
     line-height: 30px;
+    font-size: 16px;
 }
 
 .get-involved-volunteer {
@@ -30,7 +31,7 @@
 .get-involved-text {
     margin: auto;
     line-height: 35px;
-    padding: 10px 20px;
+    padding: 10px 30px;
 }
 
 
