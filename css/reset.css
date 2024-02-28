@@ -7,7 +7,7 @@ html, body {
 }
 
 h1 {
-    font-family: 'Maven Pro';
+    font-family: 'Maven Pro', Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
 }
 
@@ -25,11 +25,11 @@ h3, .h2-orange-desktop, .h2-orange-mobile, .h2-orange {
 
 p, .button {
     font-size: 14px;
-    font-family: 'Mandali';
+    font-family: 'Mandali', Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h2, h3, li, a, .h3, .contactform, .button {
-    font-family: 'Manrope';
+    font-family: 'Manrope', Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .logo-header {
