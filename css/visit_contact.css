@@ -9,7 +9,7 @@
 }
 
 .contact {
-    margin-top: -5px;
+    margin-top: -6px;
 }
 
 .contact-contactform, .contact-location, .visit-info, .visit-robot, .first-name, .last-name {
@@ -184,7 +184,7 @@ form input, form textarea, .google-map {
     .robot-visit {
         width: 120px;
     }
-    
+
     .contactform {
         padding-top: 30px;
     }
