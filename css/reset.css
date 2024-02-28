@@ -15,7 +15,7 @@ h2 {
     font-size: 20px;
 }
 
-h3, .h3, .nav-mobile ul, #social-icons  {
+h3, .h3, .nav-mobile ul, #social-instagram, #social-snapchat  {
     font-size: 18px;
 }
 
@@ -107,7 +107,7 @@ footer {
     padding: 10px 0px;
 }
 
-footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
+footer a:visited, footer a:link, footer p, #social-instagram, #social-snapchat, .nav-mobile a:hover{
     color: white;
 }
 
@@ -158,6 +158,10 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
 
 .page-divider, .page-divider-small, .page-divider-get-involved, .page-divider2 {
     background-color: #EDEFEF;
+}
+
+.h-invisible {
+    display: none;
 }
 
 
@@ -222,7 +226,7 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
         font-size: 13px;
     }
 
-    #social-icons {
+    #social-instagram, #social-snapchat {
         padding-right: 5px;
     }
 
@@ -372,7 +376,7 @@ footer a:visited, footer a:link, footer p, #social-icons, .nav-mobile a:hover{
         padding-left: 0px;
     }
 
-    #social-icons,.footer-social p {
+    #social-instagram, #social-snapchat, .footer-social p {
         font-size: 14px;
     }
 
