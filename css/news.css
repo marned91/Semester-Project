@@ -1,71 +1,60 @@
-.under-construction {
+.news-intro, .special-events, .special-events-reverse {
     display: flex;
-    justify-content: space-between;
+}
+
+.news-intro {
     align-items: center;
 }
 
+
+.special-events-reverse {
+    flex-direction: row-reverse;
+}
+
 /*negativ margin is set to avoid gap between elements*/
-.under-construction, .sneak-upcoming {
+.news-intro {
     margin-top: -4px;
 }
 
-.under-construction-text, .under-construction-image {
+.special-events-text, .special-events-image, .news-intro-image, .news-intro-text {
     flex: 1;
 }
 
-.under-contruction-img {
+.special-events-img, .news-intro-img {
     width: 100%;
     height: auto;
 }
 
-.under-construction-text {
-    text-align: center;
-    margin: 0px 20px;
+.news-intro-text, .special-events-text {
+    padding: 10px 30px;
+    margin: auto;
 }
 
-.under-construction-text p {
-    font-size: 25px;
-    font-weight: bold;
-}
 
-.sneak-upcoming {
-    background-color: #EDEFEF;
-    color: #0B2344;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    padding: 30px;
-    gap: 10px;
-}
-
-.upcoming-info {
-    max-width: 90%;
-    margin: 0px 30px;
+.p-bold {
+    font-weight: bolder;
 }
 
 /*mobile and small tablets*/
 @media screen and (min-width: 300px) and (max-width: 600px) {
 
-    .under-construction {
+    .news-intro, .special-events, .special-events-reverse {
         flex-wrap: wrap;
+        align-items: flex-start;
+    }
+
+    .special-events-reverse {
+        flex-direction: column;
     }
     
-    .under-construction-text, .under-construction-image {
+    .news-intro-text, .news-intro-image, .special-events-text, .special-events-image {
         flex: 100%;
     }
 
-    .under-construction-text p {
-        font-size: 18px;
-    }
-
-    .sneak-upcoming {
-        grid-template-columns: 1fr;
+    .special-events-text {
+        background-color: #EDEFEF;
+        margin-top: -4px;
         padding: 20px;
-        gap: 10px;
-    }
-    
-    .upcoming-info {
-        max-width: 100%;
-        margin: 0px 20px;
     }
 
 }
@@ -73,19 +62,22 @@
 /*smaller and lagrer tablets*/
 @media screen and (min-width: 601px) and (max-width: 900px) {
 
-    .under-construction-text p {
-        font-size: 18px;
+    .special-events, .special-events-reverse {
+        flex-wrap: wrap;
     }
 
-    .sneak-upcoming {
-        grid-template-columns: 1fr;
-        padding: 20px;
-        gap: 10px;
+    .special-events-text, .special-events-image {
+        flex: 100%;
     }
-    
-    .upcoming-info {
-        max-width: 100%;
-        margin: 0px 20px;
+
+    .special-events-reverse {
+        flex-direction: column;
+    }
+
+    .special-events-text {
+        background-color: #EDEFEF;
+        margin-top: -4px;
+        padding: 30px;
     }
 
 }
@@ -95,6 +87,10 @@
 
     .sneak-upcoming {
         padding: 60px 30px;
+    }
+
+    .special-events-reverse {
+        align-items: center;
     }
 
 }

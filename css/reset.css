@@ -11,7 +11,7 @@ h1 {
     font-size: 30px;
 }
 
-h2 {
+h2, .h2-blue {
     font-size: 20px;
 }
 
@@ -152,7 +152,7 @@ footer a:visited, footer a:link, footer p, #social-instagram, #social-snapchat, 
 }
 
 /*negativ margin is set to avoid gap between elements*/
-.page-divider,.page-divider2 {
+.page-divider,.page-divider2, .page-divider-small {
     margin-top: -4px;
 }
 
@@ -239,7 +239,7 @@ footer a:visited, footer a:link, footer p, #social-instagram, #social-snapchat, 
         font-size: 22px;
     }
 
-    h2 {
+    h2, .h2-blue {
         font-size: 18px;
     }
 
@@ -304,7 +304,7 @@ footer a:visited, footer a:link, footer p, #social-instagram, #social-snapchat, 
      }
 
     p {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     h1 {

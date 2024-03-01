@@ -25,7 +25,7 @@
     margin-top: 50px;
 }
 
-.h2-blue {
+.page-divider-home2 h2 {
     margin-left: 80px;
 }
 
@@ -153,7 +153,7 @@
         margin-right: 40px;
     }
 
-    .h2-blue, .home-h3-mobile {
+    .page-divider-home2 h2, .home-h3-mobile {
         margin-left: 30px;
     }
 
@@ -240,7 +240,7 @@
         margin-right: 50px;
     }
 
-    .h2-blue, .home-h3-mobile {
+    .page-divider-home2 h2 .home-h3-mobile {
         margin-left: 60px;
     }
 
