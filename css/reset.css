@@ -23,7 +23,7 @@ h3, .h2-orange-desktop, .h2-orange-mobile, .h2-orange, .h3-ecology {
     color: #CE4C04;
 }
 
-p, .button, label, input, .ecology-exhibition-info2 li, a.button{
+p, .button, label, input, .ecology-exhibition-info2 li, a.button, .terms-content li{
     font-size: 14px;
     font-family: 'Urbanist', Verdana, Geneva, Tahoma, sans-serif;
 }
