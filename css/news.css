@@ -30,7 +30,6 @@
     margin: auto;
 }
 
-
 .p-bold {
     font-weight: bolder;
 }
@@ -57,6 +56,10 @@
         padding: 20px;
     }
 
+    .news-intro-text p {
+        font-size: 14px;
+    }
+
 }
 
 /*smaller and lagrer tablets*/
@@ -80,6 +83,10 @@
         padding: 30px;
     }
 
+    .news-intro-text p {
+        font-size: 15px;
+    }
+
 }
 
 /*laptop and desktop*/
@@ -91,6 +98,10 @@
 
     .special-events-reverse {
         align-items: center;
+    }
+
+    .news-intro-text p {
+        font-size: 16px;
     }
 
 }

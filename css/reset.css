@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cambay:wght@400;700&family=Lato:wght@900&family=Mandali&family=Manrope:wght@400;500;700&family=Maven+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Maven+Pro:wght@400..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 
 html, body {
     max-width: 100%;
@@ -15,20 +15,20 @@ h2, .h2-blue {
     font-size: 20px;
 }
 
-h3, .h3, .nav-mobile ul, #social-instagram, #social-snapchat  {
+h3, .h3, .nav-mobile ul, #social-instagram, #social-snapchat, .h3-ecology, .h3-blue  {
     font-size: 18px;
 }
 
-h3, .h2-orange-desktop, .h2-orange-mobile, .h2-orange {
+h3, .h2-orange-desktop, .h2-orange-mobile, .h2-orange, .h3-ecology {
     color: #CE4C04;
 }
 
-p, .button {
+p, .button, label, input, .ecology-exhibition-info2 li, a.button{
     font-size: 14px;
-    font-family: 'Mandali', Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Urbanist', Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h2, h3, li, a, .h3, .contactform, .button {
+h2, h3, nav li, a, .h3, .contactform, .h3-ecology, .h3-blue{
     font-family: 'Manrope', Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -94,7 +94,7 @@ nav a, nav li, footer li, footer a, a, .back-top-i {
     text-decoration: none;
 }
 
-nav a, nav li, footer li, footer a, .back-top-i {
+nav a, nav li, footer li, footer a{
     font-weight: bold;
 }
 
@@ -239,11 +239,11 @@ footer a:visited, footer a:link, footer p, #social-instagram, #social-snapchat, 
         font-size: 22px;
     }
 
-    h2, .h2-blue {
+    h2, .h2-blue, .h2-orange, .h2-orange-desktop, .h2-orange-mobile {
         font-size: 18px;
     }
 
-    h3 {
+    h3, .h3-ecology, .h3-blue {
         font-size: 16px;
     }
 
@@ -307,8 +307,16 @@ footer a:visited, footer a:link, footer p, #social-instagram, #social-snapchat, 
         font-size: 14px;
     }
 
+    h2, .h2-blue, .h2-orange, .h2-orange-desktop, .h2-orange-mobile {
+        font-size: 18px;
+    }
+
     h1 {
         font-size: 25px;
+    }
+
+    .h3, .h3-blue, .h3-ecology{
+        font-size: 16px;
     }
 
     .mobile-small-background {
