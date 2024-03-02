@@ -13,16 +13,14 @@
 
 .home-intro-text p {
     color: #0B2344;
-    padding-top: 30px;
-    line-height: 40px;
-    max-width: 90%;
-    margin: auto;
+    padding: 10px 30px;
+    line-height: 30px;
 }
 
 .home-h1 {
     font-size: 35px;
-    margin-left: 120px;
-    margin-top: 50px;
+    margin-left: 80px;
+    margin-top: 30px;
 }
 
 .page-divider-home2 h2 {
@@ -65,6 +63,9 @@
 
 .exploration-info p {
     margin: 10px 40px;
+}
+
+.exploration-info p, .popular-exhibition-text {
     line-height: 30px;
 }
 
@@ -87,7 +88,6 @@
 }
 
 .popular-exhibition-text {
-    line-height: 35px;
     max-width: 60%;
 }
 
@@ -114,7 +114,6 @@
     }
 
     .home-intro-text p, .popular-exhibition-text {
-        line-height: 30px;
         max-width: 100%;
     }
 
@@ -240,7 +239,7 @@
         margin-right: 50px;
     }
 
-    .page-divider-home2 h2 .home-h3-mobile {
+    .page-divider-home2 h2, .home-h3-mobile {
         margin-left: 60px;
     }
 
