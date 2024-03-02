@@ -17,13 +17,13 @@
 
 .home-intro-text-content {
     color: #0B2344;
-    margin: 30px auto;
+    margin: 10% auto;
     flex-direction: column;
 }
 
 .home-intro-text p {
     line-height: 30px;
-    max-width: 90%;
+    max-width: 70%;
 }
 
 .home-h1 {
