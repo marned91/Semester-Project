@@ -155,6 +155,10 @@ footer a:visited, footer a:link, footer p, #social-instagram, #social-snapchat, 
     border: none;
 }
 
+.h3, .h3-ecology {
+    color: #ED5E0F;
+}
+
 /*negativ margin is set to avoid gap between elements*/
 .page-divider,.page-divider2, .page-divider-small {
     margin-top: -4px;

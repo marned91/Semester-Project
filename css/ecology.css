@@ -67,10 +67,6 @@
     height: auto;
 }
 
-.h3-ecology {
-    color: #ED5E0F;
-}
-
 
 /*mobile and small tablets*/
 @media screen and (min-width: 300px) and (max-width: 600px) {
