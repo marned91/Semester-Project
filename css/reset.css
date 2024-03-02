@@ -15,7 +15,7 @@ h2, .h2-blue {
     font-size: 20px;
 }
 
-h3, .h3, .nav-mobile ul, #social-instagram, #social-snapchat, .h3-ecology, .h3-blue  {
+h3, .h3, #social-instagram, #social-snapchat, .h3-ecology, .h3-blue, .nav-desktop li  {
     font-size: 18px;
 }
 
@@ -30,6 +30,10 @@ p, .button, label, input, .ecology-exhibition-info1, li, a.button, .terms-conten
 
 h2, h3, nav li, a, .h3, .contactform, .h3-ecology, .h3-blue{
     font-family: 'Manrope', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-mobile li {
+    font-size: 16px;
 }
 
 .logo-header {
