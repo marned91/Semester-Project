@@ -97,7 +97,6 @@
 
     .p-large {
         font-size: 18px;
-        padding-top: 10px;
     }
 
     .ecology-exhibition-info1 >* {
@@ -132,7 +131,6 @@
 
     .p-large {
         font-size: 18px;
-        padding-top: 10px;
     }
 
     .ecology-exhibition-info1 >* {
@@ -162,10 +160,6 @@
 
     .ecology-img-desktop {
         height: auto;
-    }
-
-    .ecology-exhibition-info {
-        padding-bottom: 100px;
     }
 
     .ecology-exhibition-info1 {
