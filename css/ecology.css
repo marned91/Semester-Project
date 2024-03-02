@@ -30,8 +30,8 @@
     padding: 60px 0px;
 }
 
-.ecology-intro2, .p-large {
-    line-height: 25px;
+.ecology-intro2, .p-large, .ecology-exhibition-info1 >* {
+    line-height: 30px;
 }
 
 .ecology-intro2 p{
@@ -60,10 +60,6 @@
 
 .ecology-exhibition-info1 >*, .ecology-exhibition-info2 {
     margin-left: 60px;
-}
-
-.ecology-exhibition-info1 >* {
-    line-height: 30px;
 }
 
 .ecology-img-mobile, .ecology-img-desktop {

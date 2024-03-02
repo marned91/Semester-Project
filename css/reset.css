@@ -210,8 +210,10 @@ footer a:visited, footer a:link, footer p, #social-instagram, #social-snapchat, 
         font-size: 14px;
     }
 
+    /*negativ margin is set to align footer-social and footer-links on y axis*/
     .footer-social p {
         font-size: 12px;
+        margin-left: -6px;
     }
 
     .footer-social {
