@@ -1,120 +1,112 @@
-.page-divider h2 {
-    margin-left: 80px;
-    padding: 30px;
-    font-size: 25px;
-}
-
-.ecology-exhibition-part1, .ecology-exhibition-info, .ecology-exhibition-info1, .ecology-exhibition-info2 {
+.ecology-intro,.ecology-exhibition-info, .ecology-exhibition-info2 {
     display: flex;
-}
+    align-items: center;
+} 
 
-.ecology-exhibition-part1, .ecology-exhibition-info2 {
-    flex-direction: column;
-}
-
-.ecology-exhibition-part1, .ecology-exhibition-info, .ecology-exhibition-info1, .ecology-exhibition-info2 {
-    justify-content: center;
-}
-
-.ecology-exhibition-part1, .ecology-img-desktop {
-    width: 100%;
-}
-
-/*negativ margin is set to avoid gap between elements*/
-.ecology-exhibition-text {
-    background-color: #EDEFEF;
-    padding: 90px 30px;
-    margin-top: -4px;
-    line-height: 30px;
-    text-align: center;
-}
-
-.ecology-exhibition-info1, .ecology-exhibition-info2 {
-    flex: 1;
-    padding: 60px 0px;
-}
-
-.ecology-exhibition-info1{
+.ecology-exhibition-info2 {
     gap: 20px;
 }
 
-.ecology-exhibition-info1 p {
-    max-width: 60%;
-    font-weight: bold;
+.ecology-intro {
+    justify-content: center;
 }
 
-.ecology-exhibition-info2 {
+/*negativ margin is set to avoid gap between elements*/
+.ecology-intro1, .ecology-intro2 {
+    flex: 1;
+    margin-top: -4px;
+}
+
+.ecology-intro1 h1, .ecology-intro1 p {
+    max-width: 80%;
+}
+
+.ecology-intro1 h1, .ecology-intro1 p, .ecology-intro2 p {
+    margin: auto;
+}
+
+.ecology-intro2 {
+    background-color: #EDEFEF;
+    padding: 60px 0px;
+}
+
+.ecology-intro2, .p-large {
+    line-height: 25px;
+}
+
+.ecology-intro2 p{
+    max-width: 90%;
+}
+
+.p-large {
+    color: #0B2344;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.ecology-exhibition-info {
+    flex-wrap: wrap;
+}
+
+.ecology-exhibition-info1, .ecology-exhibition-info2 {
+    flex: 100%;
+    padding: 40px 0px;
+}
+
+.ecology-exhibition-info1 {
     background-color: #0B2344;
     color: white;
+}
+
+.ecology-exhibition-info1 >*, .ecology-exhibition-info2 {
+    margin-left: 60px;
+}
+
+.ecology-exhibition-info1 >* {
     line-height: 30px;
 }
 
-.h3-ecology {
-    margin: 0px 100px 0px 20px;
+.ecology-img-mobile, .ecology-img-desktop {
+    width: 100%;
+    height: auto;
 }
 
 
 /*mobile and small tablets*/
 @media screen and (min-width: 300px) and (max-width: 600px) {
 
-    .ecology-img-desktop {
+    .ecology-img-desktop, .page-divider-small {
         display: none;
-    }
-
-    .page-divider h2{
-        padding: 20px;
-        font-size: 20px;
-    }
-
-    .page-divider h2 {
-        margin: auto;
-    }
-
-    .ecology-exhibition-text {
-        padding: 10px 20px;
-        text-align: left;
-    }
-
-    .ecology-img-mobile {
-        height: auto;
-        width: 100%;
-    }
-
-    .ecology-exhibition-info {
-        flex-direction: column;
-        padding-bottom: 30px;
-        gap: 20px;
-    }
-    
-
-    .ecology-exhibition-info1{
-        gap: 5px;
-        margin: 0px 30px;
-    }
-
-    
-    .ecology-exhibition-info1 p {
-        max-width: none;
-        padding-left: 10px;
-    }   
-    
-    .ecology-exhibition-info2 ul{
-        margin: 0px 10px;
-    }
-
-    .h3-ecology {
-        padding-bottom: 20px;
-        margin: none;
     }
 
     .robot-ecology {
         height: 60px;
     }
 
-    .ecology-exhibition-info1, .ecology-exhibition-info2  {
+    .ecology-intro {
+        flex-wrap: wrap;
+    }
+
+    .ecology-intro1, .ecology-intro2, .ecology-exhibition-info1, .ecology-exhibition-info2 {
+        padding: 30px 0px;
+    }
+
+    .ecology-intro1, .ecology-intro2, .ecology-exhibition-image {
+        flex: 100%;
+    }
+
+    .p-large {
+        font-size: 18px;
+        padding-top: 10px;
+    }
+
+    .ecology-exhibition-info1 >* {
         align-items: center;
     }
 
+    .ecology-exhibition-info1 >*, .ecology-exhibition-info2 {
+        margin: 10px 20px;
+    }
 
 
 }
@@ -122,59 +114,33 @@
 /*smaller and lagrer tablets*/
 @media screen and (min-width: 601px) and (max-width: 900px){
 
-    .ecology-img-desktop {
+    .ecology-img-desktop, .page-divider-small {
         display: none;
     }
 
-    .page-divider h2 {
-        margin: auto;
-        padding: 20px;
+    .ecology-intro {
+        flex-wrap: wrap;
     }
 
-    .ecology-exhibition-text {
-        padding: 10px 30px;
-        text-align: left;
+    .ecology-intro1, .ecology-intro2, .ecology-exhibition-info1, .ecology-exhibition-info2 {
+        padding: 50px 0px;
     }
 
-    .ecology-img-mobile {
-        height: auto;
+    .ecology-intro1, .ecology-intro2, .ecology-exhibition-image {
+        flex: 100%;
     }
 
-    .ecology-exhibition-info {
-        flex-direction: column;
-        padding-bottom: 30px;
-        gap: 20px;
+    .p-large {
+        font-size: 18px;
+        padding-top: 10px;
     }
 
-    .ecology-exhibition-info1{
-        gap: 10px;
-        max-width: 70%;
+    .ecology-exhibition-info1 >* {
+        align-items: center;
     }
 
-    .ecology-exhibition-info1, .h3-ecology, .ecology-exhibition-info2 ul {
-        margin-left: 40px;
-    }
-
-    
-    .ecology-exhibition-info1 p {
-        max-width: 95%;
-        padding: 0px;
-    }   
-    
-    .ecology-exhibition-info2 ul{
-        margin: 0px 10px;
-    }
-
-    .ecology-exhibition-info2, .ecology-img-mobile {
-        width: 100%;
-    }
-
-    .ecology-exhibition-info2, .ecology-exhibition-info1 {
-        align-items: none;
-    }
-
-    .h3-ecology {
-        padding-bottom: 10px;
+    .ecology-exhibition-info1 >*, .ecology-exhibition-info2 {
+        margin: 10px 20px;
     }
 
     .robot-ecology {
@@ -200,10 +166,9 @@
 
     .ecology-exhibition-info {
         padding-bottom: 100px;
-        gap: 50px;
     }
 
-    .ecology-exhibition-info1, .ecology-exhibition-info2  {
+    .ecology-exhibition-info1 {
         align-items: center;
     }
     

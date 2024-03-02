@@ -19,11 +19,11 @@ h3, .h3, .nav-mobile ul, #social-instagram, #social-snapchat, .h3-ecology, .h3-b
     font-size: 18px;
 }
 
-h3, .h2-orange-desktop, .h2-orange-mobile, .h2-orange, .h3-ecology {
+h3, .h2-orange-desktop, .h2-orange-mobile, .h2-orange, .h3-ecology, .h1-orange {
     color: #CE4C04;
 }
 
-p, .button, label, input, .ecology-exhibition-info2 li, a.button, .terms-content li{
+p, .button, label, input, .ecology-exhibition-info1, li, a.button, .terms-content li{
     font-size: 14px;
     font-family: 'Urbanist', Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -44,7 +44,7 @@ h2, h3, nav li, a, .h3, .contactform, .h3-ecology, .h3-blue{
     font-size: 35px;
 }
 
-h1, nav li, .nav-desktop, .nav-mobile, nav a:visited, nav a:link, .hamburger-icon, .h2-blue, .page-intro, .h3-blue, .back-top, .back-top a:link, .back-top a:visited, .fa-solid, .h3-blue {
+h1, nav li, .nav-desktop, .nav-mobile, nav a:visited, nav a:link, .hamburger-icon, .h2-blue, .page-intro, .h3-blue, .back-top, .back-top a:link, .back-top a:visited, .fa-solid, .h3-blue, .h3-non-bold {
     color: #0B2344;
 }
 
