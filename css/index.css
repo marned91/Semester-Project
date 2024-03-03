@@ -22,7 +22,6 @@
 }
 
 .home-intro-text p {
-    line-height: 30px;
     max-width: 70%;
 }
 
@@ -40,10 +39,6 @@
 
 .page-divider-home2, .popular-exhibition, .popular-exhibition-reverse, .home-intro-text-content {
     align-items: center;
-}
-
-.page-divider-home, .page-divider-home2 {
-    background-color: #EDEFEF;
 }
 
 .robot-home {
@@ -68,7 +63,7 @@
     margin: 10px 40px;
 }
 
-.exploration-info p, .popular-exhibition-text {
+.exploration-info p, .popular-exhibition-text, .home-intro-text p {
     line-height: 30px;
 }
 
@@ -211,7 +206,6 @@
 
     .home-intro-text p {
         font-size: 16px;
-        line-height: 30px;
         margin: 20px 20px 20px 60px;
     }
 

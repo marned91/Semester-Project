@@ -102,7 +102,7 @@ nav a, nav li, footer li, footer a{
     font-weight: bold;
 }
 
-#menu-checkbox {
+#menu-checkbox, .h-invisible {
     display: none;
 }
 
@@ -151,7 +151,6 @@ footer a:visited, footer a:link, footer p, #social-instagram, #social-snapchat, 
     color: black;
     padding: 10px 35px;
     border-radius: 15px;
-    font-size: 14px;
     border: none;
 }
 
@@ -160,12 +159,8 @@ footer a:visited, footer a:link, footer p, #social-instagram, #social-snapchat, 
     margin-top: -4px;
 }
 
-.page-divider, .page-divider-small, .page-divider-get-involved, .page-divider2 {
+.page-divider, .page-divider-small, .page-divider-get-involved, .page-divider2, .page-divider-home, .page-divider-home2 {
     background-color: #EDEFEF;
-}
-
-.h-invisible {
-    display: none;
 }
 
 
@@ -249,7 +244,7 @@ footer a:visited, footer a:link, footer p, #social-instagram, #social-snapchat, 
         font-size: 18px;
     }
 
-    h3, .h3-ecology, .h3-blue {
+    h3, .h3-ecology, .h3-blue, .back-top p {
         font-size: 16px;
     }
 
@@ -275,10 +270,6 @@ footer a:visited, footer a:link, footer p, #social-instagram, #social-snapchat, 
     .back-top {
         padding: 40px 0px;
         line-height: 5px;
-    }
-
-    .back-top p {
-        font-size: 16px;
     }
 }
 
@@ -309,10 +300,6 @@ footer a:visited, footer a:link, footer p, #social-instagram, #social-snapchat, 
         gap: 20px;
      }
 
-    p {
-        font-size: 14px;
-    }
-
     h2, .h2-blue, .h2-orange, .h2-orange-desktop, .h2-orange-mobile {
         font-size: 18px;
     }
@@ -321,7 +308,7 @@ footer a:visited, footer a:link, footer p, #social-instagram, #social-snapchat, 
         font-size: 25px;
     }
 
-    .h3, .h3-blue, .h3-ecology{
+    .h3, .h3-blue, .h3-ecology,.back-top p {
         font-size: 16px;
     }
 
@@ -336,7 +323,6 @@ footer a:visited, footer a:link, footer p, #social-instagram, #social-snapchat, 
 
     .button {
         padding: 10px 30px;
-        font-size: 14px;
     }
 
     .page-divider, .page-divider-small, .page-divider-get-involved {
@@ -349,10 +335,6 @@ footer a:visited, footer a:link, footer p, #social-instagram, #social-snapchat, 
         line-height: 5px;
     }
 
-    .back-top p {
-        font-size: 16px;
-    }
-
 }
 
 /*laptop and desktop*/
@@ -362,7 +344,6 @@ footer a:visited, footer a:link, footer p, #social-instagram, #social-snapchat, 
     }
 
     .logo, .nav-desktop {
-        justify-content: flex-start;
         flex: 1;
     }
 
@@ -375,7 +356,6 @@ footer a:visited, footer a:link, footer p, #social-instagram, #social-snapchat, 
     }
 
     .nav-desktop {
-        margin-right: 20px;
         flex-grow: 3;
         margin: 0;
     }

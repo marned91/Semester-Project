@@ -52,7 +52,6 @@
 /*mobile and small tablets*/
 @media screen and (min-width: 300px) and (max-width: 600px) {
 
-
 .terms p, .terms ul {
     padding: 5px;
     max-width: 100%;

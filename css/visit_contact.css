@@ -3,7 +3,7 @@
     justify-content: center;
 }
 
-
+/*height is set to ensure equal scaling for both elements*/
 .contact, .google-map {
     height: 600px;
 }

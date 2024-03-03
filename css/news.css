@@ -107,10 +107,6 @@
 /*laptop and desktop*/
 @media screen and (min-width: 901px) and (max-width: 20000px) {
 
-    .sneak-upcoming {
-        padding: 60px 30px;
-    }
-
     .special-events-reverse {
         align-items: center;
     }
