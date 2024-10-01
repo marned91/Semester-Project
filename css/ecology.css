@@ -1,4 +1,4 @@
-.ecology-intro,.ecology-exhibition-info, .ecology-exhibition-info2 {
+.ecology-intro,.ecology-exhibition-info, .ecology-exhibition-info2, .ecology-exhibition-info1 {
     display: flex;
     align-items: center;
 } 
@@ -7,14 +7,17 @@
     gap: 20px;
 }
 
-.ecology-intro {
+.magnifying-glass {
+    width: 90%;
+    height: auto;
+}
+
+.ecology-intro, .ecology-exhibition-info1 {
     justify-content: center;
 }
 
-/*negativ margin is set to avoid gap between elements*/
 .ecology-intro1, .ecology-intro2 {
     flex: 1;
-    margin-top: -4px;
 }
 
 .ecology-intro1 h1, .ecology-intro1 p {
@@ -26,7 +29,7 @@
 }
 
 .ecology-intro2 {
-    background-color: #EDEFEF;
+    background-color: #6CA4A4;
     padding: 60px 0px;
 }
 
@@ -48,14 +51,9 @@
     flex-wrap: wrap;
 }
 
-.ecology-exhibition-info1, .ecology-exhibition-info2 {
-    flex: 100%;
-    padding: 40px 0px;
-}
-
 .ecology-exhibition-info1 {
-    background-color: #0B2344;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 .ecology-exhibition-info1 >*, .ecology-exhibition-info2 {
@@ -79,8 +77,8 @@
         display: none;
     }
 
-    .robot-ecology {
-        height: 60px;
+    .ecology-intro2 {
+        margin-top: -4px;
     }
 
     .ecology-intro {
@@ -99,12 +97,16 @@
         font-size: 18px;
     }
 
-    .ecology-exhibition-info1 >* {
-        align-items: center;
+    .ecology-exhibition-info1 {
+        align-items: left;
     }
 
     .ecology-exhibition-info1 >*, .ecology-exhibition-info2 {
         margin: 10px 20px;
+    }
+
+    .ecology-exhibition-info1 {
+        flex-direction: column;
     }
 
 
@@ -115,6 +117,10 @@
 
     .ecology-img-desktop, .page-divider-small {
         display: none;
+    }
+
+    .ecology-intro2 {
+        margin-top: -4px;
     }
 
     .ecology-intro {
@@ -141,10 +147,6 @@
         margin: 10px 20px;
     }
 
-    .robot-ecology {
-        height: 70px;
-    }
-
 }
 
 /*laptop and desktop*/
@@ -152,10 +154,6 @@
 
     .ecology-img-mobile {
         display: none;
-    }
-
-    .robot-ecology {
-        height: 90px;
     }
 
     .ecology-exhibition-info1 {

@@ -1,3 +1,18 @@
+.visit-contact-wrapper {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    padding: 30px 0px;
+    gap: 20px;
+    align-items: center;
+}
+
+.visit-details{
+    background-color: #064356;
+    color: white;
+}
+
 .contact, .visit {
     display: flex;
     justify-content: center;
@@ -8,18 +23,12 @@
     height: 600px;
 }
 
-/*negativ margin is set to avoid gap between elements*/
-.contact {
-    margin-top: -6px;
-}
-
-.contact-contactform, .contact-location, .visit-info, .visit-robot, .first-name, .last-name {
+.contact-contactform, .contact-location, .visit-info, .first-name, .last-name {
     flex: 1;
 }
 
 .contact-contactform {
-    background-color: #0B2344;
-    color: white;
+    color: black;
 
 }
 
@@ -41,8 +50,9 @@ button {
 
 input, textarea {
     border-radius: 10px;
-    border-style: none;
     padding-inline-start: 10px;
+    border-color: black;
+    border-width: 1px;
 }
 
 form input, form textarea, .google-map {
@@ -98,6 +108,13 @@ form input, form textarea, .google-map {
         height: auto;
     }
 
+    .visit-contact-wrapper {
+        flex-direction: column;
+        padding: 20px;
+        gap: 10px;
+        margin: 10px;
+    }
+
     /*negativ margin is set to avoid gap between elements*/
     .contact, .visit {
         margin-top: -4px;
@@ -111,7 +128,7 @@ form input, form textarea, .google-map {
         width: 100%;
     }
 
-    .visit-info, .visit-robot,.contact-contactform, .contact-location {
+    .visit-info, .contact-contactform, .contact-location {
         flex: 100%;
     }
 
@@ -131,6 +148,11 @@ form input, form textarea, .google-map {
         margin: 0px 20px;
     }
 
+    .visit-contact-img {
+        width: 100%;
+        height: auto;
+    }
+
 
 }
 
@@ -142,12 +164,22 @@ form input, form textarea, .google-map {
         height: auto;
     }
 
+    .visit-contact-wrapper {
+        width: 90%;
+        padding: 20px 0px;
+        gap: 0px;
+    }
+
+    .visit-contact-intro {
+        width: 80%;
+    }
+
     /*negativ margin is set to avoid gap between elements*/
     .contact, .visit {
         margin-top: -4px;
     }
 
-    .contact-contactform, .contact-location, .visit-info, .visit-robot {
+    .contact-contactform, .contact-location, .visit-info {
         flex: 100%;
     }
 
@@ -175,6 +207,11 @@ form input, form textarea, .google-map {
         margin: 0px 20px;
     }
 
+    .visit-contact-img {
+        width: 100%;
+        height: auto;
+    }
+
 }
 
 /*laptop and desktop*/
@@ -185,16 +222,8 @@ form input, form textarea, .google-map {
         gap: 40px;
     }
 
-    .robot-visit {
-        width: 120px;
-    }
-
     .contactform {
         padding-top: 30px;
-    }
-
-    .visit-robots {
-        margin-right: 40px;
     }
 
     

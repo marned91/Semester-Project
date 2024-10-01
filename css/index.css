@@ -2,7 +2,7 @@
     display: flex;
 }
 
-.home-intro-text, .home-intro-image, .exploration-info, .popular-exhibition, .popular-exhibition-reverse, .popular-exhibition-image, .popular-exhibition-text  {
+.home-intro-text, .exploration-info, .popular-exhibition, .popular-exhibition-reverse, .popular-exhibition-image, .popular-exhibition-text  {
     flex: 1;
 }
 
@@ -11,22 +11,22 @@
     
 }
 
-.home-intro-text {
-    background-color: #ED5E0F;
+.home-intro {
+  padding: 40px 120px;
+}
+
+.home-illustration {
+    width: 100%;
+    height: auto;
 }
 
 .home-intro-text-content {
-    color: #0B2344;
     margin: 10% auto;
     flex-direction: column;
 }
 
 .home-intro-text p {
-    max-width: 70%;
-}
-
-.home-h1 {
-    font-size: 35px;
+    max-width: 85%;
 }
 
 .page-divider-home2 h2 {
@@ -37,39 +37,53 @@
     justify-content: space-between;
 }
 
-.page-divider-home2, .popular-exhibition, .popular-exhibition-reverse, .home-intro-text-content {
+.page-divider-home2, .home-intro-text-content {
     align-items: center;
 }
 
-.robot-home {
-    margin-right: 80px;
-}
-
 .exploration,.popular-exhibition, .popular-exhibition-reverse {
-    margin: 0px 50px;
+    margin: 0px 60px;
 }
 
-.exploration, .popular-exhibition, .popular-exhibition-reverse  {
-    gap: 50px;
+.exploration {
+    padding-bottom: 60px;
+    gap: 20px;
 }
 
 .exploration-info {
-    background-color: #0B2344;
+    background-color: #064356;
     color: white;
-    padding: 20px 0px;
+    padding: 20px 10px;
+}
+
+.exploration-info h2 {
+    text-align: center;
 }
 
 .exploration-info p {
     margin: 10px 40px;
 }
 
-.exploration-info p, .popular-exhibition-text, .home-intro-text p {
+.home-intro-text p {
     line-height: 30px;
+}
+
+.exploration-info p, .popular-exhibition-text {
+    line-height: 25px;
 }
 
 .h3 {
     font-weight: bold;
     padding-bottom: 20px;
+}
+
+#popular-exhibition-h2 {
+    padding: 30px 30px 30px 60px;
+}
+
+.popular-exhibition-text {
+    background-color: white;
+    padding: 10px 30px;
 }
 
 .popular-image {
@@ -78,7 +92,7 @@
 }
 
 .popular-exhibition, .popular-exhibition-reverse {
-    padding-bottom: 70px;
+    padding-bottom: 50px;
 }
 
 .popular-exhibition-reverse {
@@ -96,13 +110,17 @@
         display: none;
     }
 
+    .home-intro {
+        padding: 20px;
+    }
+
     .home-intro, .exploration, .popular-exhibition, .popular-exhibition-reverse {
         display: grid;
         grid-template-columns: 1fr;
     }
 
     .home-h1 {
-        font-size: 20px;
+        font-size: 25px;
         margin: 30px 0px 0px 30px;
     }
 
@@ -113,6 +131,11 @@
 
     .home-intro-text p, .popular-exhibition-text {
         max-width: 100%;
+    }
+
+    .popular-exhibition-text {
+        margin-top: -5px;
+        padding: 30px 20px;
     }
 
     .home-intro-text p, .home-h3-mobile {
@@ -138,7 +161,7 @@
         align-items: center;
     }
 
-    .exploration, .popular-exhibition-text {
+    .exploration {
         margin: auto;
     }
 
@@ -146,16 +169,8 @@
         margin: 0px;
     }
 
-    .robot-home {
-        margin-right: 40px;
-    }
-
     .page-divider-home2 h2, .home-h3-mobile {
         margin-left: 30px;
-    }
-
-    .popular-exhibition-text {
-        padding: 10px 30px;
     }
 
     .home-h3-mobile {
@@ -163,18 +178,17 @@
     }
 
     .popular-exhibition, .popular-exhibition-reverse {
-        padding-bottom: 20px;
-        gap: 10px;
+        padding-bottom: 30px;
     }
 
     .page-divider-home2, .exploration {
         margin-top: 10px;
     }
- 
+    .home-intro-image {
+        flex: 1;
+    }
    
 }
-
-
 
 /*smaller and lagrer tablets*/
 @media screen and (min-width: 601px) and (max-width: 900px){
@@ -192,48 +206,39 @@
         height: auto;
         width: 100%;
     }
-    
 
-    .home-intro, .exploration, .popular-exhibition, .popular-exhibition-reverse {
+    .home-intro {
+        padding: 40px 30px;
+    }
+
+    .home-intro-image {
+        flex: 1;
+    }
+
+    .exploration, .popular-exhibition, .popular-exhibition-reverse {
         display: grid;
         grid-template-columns: 1fr;
     }
 
     .home-h1 {
-        font-size: 25px;
-        margin: 60px 0px 0px 60px;
+        font-size: 30px;
     }
 
     .home-intro-text p {
         font-size: 16px;
-        margin: 20px 20px 20px 60px;
     }
 
     .home-intro-text p, .popular-exhibition-text {
         max-width: 100%;
     }
 
-    .home-intro-text p {
-        padding: 10px;
-    }
-
     .popular-exhibition-text {
         padding: 10px 60px;
-    }
-
-    /*negativ margin is set to avoid gap between elements*/
-    .page-divider-home {
-        padding: 30px;
-        margin-top: -4px;
     }
 
     .exploration {
         gap: 20px;
         margin: 0px 70px;
-    }
-
-    .robot-home {
-        margin-right: 50px;
     }
 
     .page-divider-home2 h2, .home-h3-mobile {
@@ -245,7 +250,8 @@
     }
 
     .popular-exhibition-text {
-        margin: auto;
+     padding: 20px 10px 30px 20px;
+     margin-top: -5px;
     }
 
     .home-h3-mobile {
@@ -253,8 +259,7 @@
     }
 
     .popular-exhibition, .popular-exhibition-reverse {
-        padding-bottom: 20px;
-        gap: 10px;
+        padding-bottom: 50px;
     }
 
     .page-divider-home2, .exploration {
@@ -285,6 +290,10 @@
 
     .home-intro-text p {
         font-size: 17px;
+    }
+
+    .home-intro {
+    width: 80%;
     }
     
 }

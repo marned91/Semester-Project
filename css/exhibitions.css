@@ -4,6 +4,10 @@
   gap: 30px;
 }
 
+.exhibition-h1 {
+    padding: 40px;
+}
+
 
 .exhibition-image {
     width: 100%;
@@ -12,10 +16,10 @@
 
 /*negativ margin is set to avoid gap between elements*/
 .exhibitions h2 {
-    padding: 20px 30px 20px 20px;
-    background-color: #EDEFEF;
+    padding: 20px;
+    background-color: white;
     margin-top: -5px;
-    color: #CE4C04;
+    color: black;
     text-align: right;
 }
 
@@ -41,7 +45,7 @@
     }
 
     .exhibitions h2 {
-        padding: 10px 20px 10px 10px;
+        padding: 20px;
     }
 
 }

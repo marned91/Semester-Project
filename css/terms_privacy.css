@@ -1,13 +1,24 @@
+.terms-privacy-top {
+    background-color: white;
+    width: 80%;
+    margin: auto;
+}
+
+.terms-privacy-h1 {
+    padding-top: 40px;
+}
+
 .last-update {
-    margin-left: 80px;
-    padding: 30px 20px 0px 20px;
+    padding-bottom: 40px;
 }
 
 .terms {
     display: grid;
     grid-template-rows: 1fr;
     margin: auto;
-    padding-bottom: 80px;
+    background-color: white;
+    width: 80%;
+    margin-top: -20px;
 }
 
 .terms div {
@@ -20,14 +31,9 @@
 }
 
 .terms h2 {
-    background-color: #0B2344;
+    background-color: #064356;
     color: white;
-    padding: 20px;
-}
-
-.terms-intro {
-    display: flex;
-    flex-wrap: wrap;
+    padding: 10px;
 }
 
 .terms-intro p {
@@ -42,12 +48,6 @@
     padding-bottom: 20px;
 }
 
-.robot-desktop-terms-privacy{
-    width: auto;
-    margin-left: auto;
-    padding-right: 20px;
-}
-
 
 /*mobile and small tablets*/
 @media screen and (min-width: 300px) and (max-width: 600px) {
@@ -57,8 +57,12 @@
     max-width: 100%;
 }
 
-.terms h2 {
-    padding: 10px 20px;
+.last-update, .terms-privacy-h1 {
+    margin-left: 20px;
+}
+
+.terms-privacy-h1 {
+    padding-top: 20px;
 }
 
 .terms-intro {
@@ -69,14 +73,6 @@
     margin: 5px 15px;
 }
 
-.robot-desktop-terms-privacy{
-    height: 100px;
-}
-
-.last-update {
-    margin-left: 10px;
-}
-
 }
 
 /*smaller and lagrer tablets*/
@@ -85,6 +81,10 @@
     .terms p, .terms ul {
         padding: 5px;
         max-width: 100%;
+    }
+
+    .last-update, .terms-privacy-h1 {
+        margin-left: 20px;
     }
     
     .terms h2 {
@@ -98,24 +98,16 @@
     .terms div {
         margin: 5px 20px;
     }
-    
-    .robot-desktop-terms-privacy{
-        height: 110px;
-    }
-    
-    .last-update {
-        margin-left: 20px;
-    }
-
 
 }
 
 /*laptop and desktop*/
 @media screen and (min-width: 901px) and (max-width: 20000px) {
 
-    .robot-desktop-terms-privacy{
-        height: 120px;
+    .last-update, .terms-privacy-h1 {
+        margin-left: 80px;
     }
+    
 
 }
 

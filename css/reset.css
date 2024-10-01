@@ -8,27 +8,45 @@ html, body {
 
 h1 {
     font-family: 'Maven Pro', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color: #0A5F6B;
+}
+
+header {
+    background-color: #0A5F6B;
+    height: 100px;
+}
+
+.blue-wrapper, .light-blue-wrapper {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.blue-wrapper {
+    background-color: #44848C;
+}
+
+.light-blue-wrapper {
+    background-color: #6CA4A4;
+}
+
+.nav-desktop, .nav-mobile, nav a:visited, nav a:link, nav li, .h2-white, .h3-white {
+    color: white;
+}
+
+h2 {
     font-size: 30px;
 }
 
-h2, .h2-blue {
-    font-size: 20px;
-}
-
 h3, .h3, #social-instagram, #social-snapchat, .h3-ecology, .h3-blue {
-    font-size: 18px;
-}
-
-h3, .h2-orange-desktop, .h2-orange-mobile, .h2-orange, .h1-orange {
-    color: #CE4C04;
+    font-size: 25px;
 }
 
 p, .button, label, input, .ecology-exhibition-info1, li, a.button, .terms-content li{
-    font-size: 14px;
     font-family: 'Urbanist', Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h2, h3, nav li, a, .h3, .contactform, .h3-ecology, .h3-blue{
+h2, h3, nav li, a, .h3, .contactform {
     font-family: 'Manrope', Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -41,53 +59,52 @@ h2, h3, nav li, a, .h3, .contactform, .h3-ecology, .h3-blue{
 }
 
 .logo-footer {
-    max-width: 90px;
+    width: 70%;
 }
 
 .hamburger-icon {
     font-size: 35px;
+    color: white;
 }
 
-h1, nav li, .nav-desktop, .nav-mobile, nav a:visited, nav a:link, .hamburger-icon, .h2-blue, .page-intro, .h3-blue, .back-top, .back-top a:link, .back-top a:visited, .fa-solid, .h3-blue, .h3-non-bold {
-    color: #0B2344;
+.h3-blue, .back-top, .back-top a:link, .back-top a:visited, .h3-blue, .h3-non-bold {
+    color: black;
 }
 
 .nav-mobile ul, .nav-mobile nav, .nav-mobile li, .nav-mobile{
-    background-color: #309C6F;
+    background-color: #0A5F6B;
 }
 
 .nav-desktop a:hover {
-    color: #309C6F;
+    color: #FF8643;
 }
 
 .nav-mobile ul{
     list-style: none;
     line-height: 50px;
     padding-left: 0px;
+    text-align: left;
+    margin-left: 40px;
 }
 
-.nav-mobile ul, .footer-social, .back-top {
+.footer-social, .back-top {
     text-align: center;
 }
 
-.nav-mobile, .page-intro-h1 {
+.nav-mobile {
     position: absolute;
 }
 
 .nav-mobile {
-    top: 80px;
+    top: 100px;
     width: 100%;
     box-shadow: 0px 4px rgb(0, 0, 0, .40);
     z-index: 2;
+    left: 0px;
 }
 
 .nav-mobile, header, .footerlogo, .footer-links, .footer-social, .footer-links {
     align-items: center;
-}
-
-header {
-    height: 80px;
-    background-color: white;
 }
 
 header, footer, .footerlogo, .footer-links, .footer-social, .page-divider,.page-divider2 {
@@ -107,12 +124,12 @@ nav a, nav li, footer li, footer a{
 }
 
 footer {
-    background-color: #0B2344;
+    background-color: white;
     padding: 10px 0px;
 }
 
 footer a:visited, footer a:link, footer p, #social-instagram, #social-snapchat, .nav-mobile a:hover{
-    color: white;
+    color: black;
 }
 
 .footerlogo, .footer-links, .footer-social{
@@ -133,22 +150,9 @@ footer a:visited, footer a:link, footer p, #social-instagram, #social-snapchat, 
    gap: 40px;
 }
 
-.page-intro {
-    position: relative;
-    text-align: left;
-    z-index: 1;
-}
-
-.page-intro-h1 {
-    top: 15%;
-    left: 7%;
-    padding-left: 90px;
-    padding-top: 0px;
-}
-
 .button {
-    background-color: #ED5E0F;
-    color: black;
+    background-color: black;
+    color: white;
     padding: 10px 35px;
     border-radius: 15px;
     border: none;
@@ -160,16 +164,13 @@ footer a:visited, footer a:link, footer p, #social-instagram, #social-snapchat, 
 }
 
 .page-divider, .page-divider-small, .page-divider-get-involved, .page-divider2, .page-divider-home, .page-divider-home2 {
-    background-color: #EDEFEF;
+    background-color: #44848C;
 }
-
-
-
 
 /*mobile and small tablets*/
 @media screen and (min-width: 300px) and (max-width: 600px){
 
-    .nav-desktop, .nav-mobile, .desktop-small-background, .tablet-small-background {
+    .nav-desktop, .nav-desktop ul, .nav-mobile, .desktop-small-background, .tablet-small-background {
         display: none;
     }
 
@@ -211,7 +212,6 @@ footer a:visited, footer a:link, footer p, #social-instagram, #social-snapchat, 
 
     /*negativ margin is set to align footer-social and footer-links on y axis*/
     .footer-social p {
-        font-size: 12px;
         margin-left: -6px;
     }
 
@@ -227,8 +227,9 @@ footer a:visited, footer a:link, footer p, #social-instagram, #social-snapchat, 
         font-size: 13px;
     }
 
-    #social-instagram, #social-snapchat {
+    #social-instagram p, #social-snapchat p {
         padding-right: 5px;
+        font-size: 13px;
     }
 
     .mobile-small-background {
@@ -237,22 +238,15 @@ footer a:visited, footer a:link, footer p, #social-instagram, #social-snapchat, 
     }
 
     h1 {
-        font-size: 22px;
+        font-size: 30px;
     }
 
-    h2, .h2-blue, .h2-orange, .h2-orange-desktop, .h2-orange-mobile {
+    h2 {
+        font-size: 20px;
+    }
+
+    h3, .h3-ecology, .back-top p {
         font-size: 18px;
-    }
-
-    h3, .h3-ecology, .h3-blue, .back-top p {
-        font-size: 16px;
-    }
-
-    .page-intro-h1 {
-        top: 10%;
-        left: 4%;
-        padding-left: 50px;
-        padding-top: 5px;
     }
 
     .robot-home, .robot-exhibitions, .robot-ecology, .robot-get-involved, .robot-visit {
@@ -270,46 +264,62 @@ footer a:visited, footer a:link, footer p, #social-instagram, #social-snapchat, 
     .back-top {
         padding: 40px 0px;
         line-height: 5px;
+        background-color: #44848C;
+    }
+
+    p, .button, label, input, .ecology-exhibition-info1, li, a.button, .terms-content li {
+        font-size: 13px;
     }
 }
 
 /*smaller and lagrer tablets*/
 @media screen and (min-width: 601px) and (max-width: 900px){
-    .nav-desktop, .nav-mobile, .mobile-small-background, .desktop-small-background {
+    .nav-mobile, .nav-mobile ul{
         display: none;
+    }
+
+    .nav-desktop li {
+        display: inline-block;
+        padding-inline: 15px;
+    }
+
+    .nav-desktop ul {
+        white-space: nowrap;
+        padding: 10px 0px 10px;
     }
 
     header {
         justify-content: center;
-    }
-
-    .logo {
-        margin: auto;
-        padding-right: 50px;
+        flex-direction: column;
+        padding: 30px 10px;
     }
 
     .hamburger-icon {
-        margin-left: 100px;
+        display: none;
     }
 
     .footer-links a {
         font-size: 13px;
     }
 
+    .blue-wrapper {
+    padding-top: 0px;
+    }
+
     .footer-links{
         gap: 20px;
      }
 
-    h2, .h2-blue, .h2-orange, .h2-orange-desktop, .h2-orange-mobile {
-        font-size: 18px;
-    }
-
-    h1 {
+    h2 {
         font-size: 25px;
     }
 
-    .h3, .h3-blue, .h3-ecology,.back-top p {
-        font-size: 16px;
+    h1 {
+        font-size: 35px;
+    }
+
+    h3, .h3, .h3-blue, .h3-ecology,.back-top p {
+        font-size: 20px;
     }
 
     .mobile-small-background {
@@ -333,6 +343,11 @@ footer a:visited, footer a:link, footer p, #social-instagram, #social-snapchat, 
     .back-top {
         padding: 40px 0px;
         line-height: 5px;
+        background-color: #44848C;
+    }
+
+    p, .button, label, input, .ecology-exhibition-info1, li, a.button, .terms-content li {
+        font-size: 14px;
     }
 
 }
@@ -363,7 +378,7 @@ footer a:visited, footer a:link, footer p, #social-instagram, #social-snapchat, 
 
     .nav-desktop li {
         display: inline-block;
-        padding-inline: 20px;
+        padding-inline: 15px;
     }
 
     .nav-desktop ul {
@@ -388,6 +403,8 @@ footer a:visited, footer a:link, footer p, #social-instagram, #social-snapchat, 
         padding: 30px;
     }
 
-
+    p, .button, label, input, .ecology-exhibition-info1, li, a.button, .terms-content li {
+        font-size: 16px;
+    }
 
 }
