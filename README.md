@@ -1,8 +1,6 @@
 # Semester-Project-1
 <img width="1153" alt="Skjermbilde 2024-10-07 kl  12 51 45" src="https://github.com/user-attachments/assets/3f517f9d-f06a-4d52-81a0-be5003b55a0b">
 
-This projects is my first project exam. 
-
 # Purpose
 The purpose of this project is to design and develop a modern, accessible, and responsive web presence for the Community Science Museum, targeting primary and middle school children (ages 7-15) and families with young children. This project is part of Noroff's first-year Frontend development full-time online course (FED1).
 
