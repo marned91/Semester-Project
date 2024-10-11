@@ -9,8 +9,11 @@
 
 .magnifying-glass {
     width: 90%;
-    height: auto;
 }
+
+.ecology-img-mobile, .ecology-img-desktop,.magnifying-glass{
+    height: auto;
+} 
 
 .ecology-intro, .ecology-exhibition-info1 {
     justify-content: center;
@@ -62,7 +65,6 @@
 
 .ecology-img-mobile, .ecology-img-desktop {
     width: 100%;
-    height: auto;
 }
 
 .h3-ecology {
